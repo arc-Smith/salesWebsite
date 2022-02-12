@@ -1,0 +1,5288 @@
+*{box-sizing: border-box; background-color: lightyellow;}
+/* Phone screen sizing */
+@media screen and (max-width: 450px) and (min-width: 200px){
+  .websiteImg{
+    border: solid mediumseagreen;
+    box-shadow: 0px 0px 10px 5px;
+    height: 500px;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    float: left;
+    animation: zooming 25s;
+  }
+  @keyframes zooming {
+    0%{transform: scale(0.25); opacity: 0.4}
+    5%{transform: scale(1); opacity: 1}
+    99%{transform: scale(1); opacity: 1}
+    100%{opacity: 0;}
+    }
+  .topImg{
+    height: 100%;
+    width: 100%;
+  }
+  .websiteText{
+    display: inline-block;
+    float: left;
+    height: 200px;
+    width: 80%;
+    margin-top: 0.5%;
+    margin-left: 10%;
+  }
+  .para1{
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: bolder;
+    color: MediumSeaGreen;
+    animation: forPara1 2s;
+    background-color: transparent;
+  }
+  @keyframes forPara1 {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(60px);}
+    100%{transform: translateY(0px);}
+  }
+  .para2{
+    margin-top: -3%;
+    font-size: 1.5em;
+    font-weight: bold;
+    animation: forPara2 2s;
+    background-color: transparent;
+  }
+  @keyframes forPara2 {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-70px);}
+    100%{transform: translateY(0px);}
+  }
+  .slideshow1{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 75px;
+    float: left;
+    overflow: hidden;
+  }
+  .slide-wrapper1{
+    width: 300%;
+    height: 100%;
+    animation: aSlideshow 25s infinite;
+  }
+  @keyframes aSlideshow{
+    0%{margin-left: 0%;}
+    15%{margin-left: 0%;}
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+    40%{margin-left: -200%;}
+    65%{margin-left: -200%;}
+  }
+  .newSlide1{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: MediumSeaGreen;
+  }
+  .s1w1{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 12.5%;
+    margin-top: 1%;
+    font-size: 150%;
+    width: 50%;
+    text-align: center;
+  }
+  .s1w2{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 2%;
+    font-size: 100%;
+    width: 30%;
+    text-align: center;
+  }
+  .newSlide2{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: seagreen;
+  }
+  .s2w1{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 2.25%;
+    margin-top: 8%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .s2w2{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    font-size: 100%;
+    width: 70%;
+    text-align: center;
+    float: left;
+  }
+  .s2w3{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-top: 15%;
+    margin-left: -4%;
+    font-size: 50%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .newSlide3{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: green;
+  }
+  .s3w1{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 140%;
+    width: 5.5%;
+    text-align: center;
+    float: left;
+  }
+  .s3w2{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 4%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 10%;
+    text-align: center;
+    float: left;
+  }
+  .s3w3{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 140%;
+    width: 5.5%;
+    text-align: center;
+    float: left;
+  }
+  .s3w4{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 4%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 10%;
+    text-align: center;
+    float: left;
+  }
+  .s3w5{
+    color: darkorange;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 20%;
+    margin-top: 1.5%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .s3w6{
+    color: white;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 5%;
+    margin-top: -5%;
+    font-size: 100%;
+    width: 55%;
+    text-align: center;
+    float: left;
+  }
+  .imgContainer1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    float: left;
+  }
+  .img1{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      filter: blur(0px);
+  }
+  .textbox1{
+      top: 1%;
+      left: 1%;
+      width: 30%;
+      padding: 5%;
+      background-color: lightgray;
+      opacity: 0.75;
+      border: solid black 5px;
+      box-shadow: 0px 0px 10px 3px black;
+      position: absolute;
+  }
+  .text0{
+    background-color: lightgray;
+    font-size: 1em;
+  }
+  .imgContainer2{
+      border: solid MediumSeaGreen;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      width: 80%;
+      height: 600px;
+      position: relative;
+      float: left;
+  }
+  .img2{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+  }
+  .text1{
+      color: black;
+      background-color: white;
+      text-align: center;
+      height: 350px;
+      width: 85%;
+      font-size: 2em;
+      opacity: 0.9;
+      padding: 3%;
+      position: absolute;
+      bottom: 15%;
+      left: 7.5%;
+  }
+  .productContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 1350px;
+    position: relative;
+    float: left;
+  }
+  #searchbar{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      width: 70%;
+
+      padding: 15px;
+      border-radius: 10px;
+      background-color: transparent;
+  }
+  #searchbar[type=text]{
+      -webkit-transition: 0.15s ease-in-out;
+      transition: 0.15s ease-in-out;
+  }
+  #searchbar[type=text]:focus{
+      size: 1em;
+  }
+  .hyper{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      border: seagreen solid 2px;
+
+      display: none;
+      float: left;
+      height: 50px;
+      width: 10%;
+  }
+  .opened{
+      height: 100%;
+      width: 100%;
+  }
+  .cart{
+      width: 10%;
+      height: 50px;
+      position: absolute;
+      top: 5.25%;
+      left: 90%;
+      background-color: seagreen;
+      box-shadow: 0px 0px 5px 3px seagreen;
+  }
+  .cartModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .cartModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .cartModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .theBacking2{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+  }
+  .newClose{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .newClose:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+  .cartTitle{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: 0.5em;
+    margin-left: 48.75%;
+    width: 35%;
+  }
+  .ticketLine{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+  }
+  .hold1{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: salmon;
+    position: absolute;
+    animation: part1 15s infinite forwards;
+  }
+  .item{
+    top: -15px;
+    background-color: mediumseagreen;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+    position: absolute;
+    opacity: 0.95;
+    font-size: 0.60em;
+  }
+  .item b, .item i{
+    background-color: transparent;
+  }
+  @keyframes part1 {
+    0{margin-top: 10%; margin-left: 10%;}
+    12.50%{margin-top: 80%; margin-left: 10%;}
+    25%{margin-top: 150%; margin-left: 10%;}
+    37.5%{margin-top: 150%; margin-left: 37.5%;}
+    50%{margin-top: 80%; margin-left: 37.5%;}
+    62.5%{margin-top: 10%; margin-left: 37.5%;}
+    75%{margin-top: 10%; margin-left: 65%;}
+    87.5%{margin-top: 10%; margin-left: 37.5%;}
+    99%{margin-top: 10%; margin-left: 10%;}
+  }
+  .hold2{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 80%;
+    background-color: salmon;
+    position: absolute;
+
+    animation: part2 15s infinite forwards;
+  }
+  @keyframes part2 {
+    0{margin-top: 80%; margin-left: 10%;}
+    12.50%{margin-top: 150%; margin-left: 10%;}
+    25%{margin-top: 150%; margin-left: 37.5%;}
+    37.5%{margin-top: 80%; margin-left: 37.5%;}
+    50%{margin-top: 10%; margin-left: 37.5%;}
+    62.5%{margin-top: 10%; margin-left: 65%;}
+    75%{margin-top: 80%; margin-left: 65%;}
+    87.5%{margin-top: 80%; margin-left: 37.5%;}
+    99%{margin-top: 80%; margin-left: 10%;}
+  }
+  .hold3{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 150%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part3 15s infinite forwards;
+  }
+  @keyframes part3 {
+    0{margin-top: 150%; margin-left: 10%;}
+    12.50%{margin-top: 150%; margin-left: 37.5%;}
+    25%{margin-top: 80%; margin-left: 37.5%;}
+    37.5%{margin-top: 10%; margin-left: 37.5%;}
+    50%{margin-top: 10%; margin-left: 65%;}
+    62.5%{margin-top: 80%; margin-left: 65%;}
+    75%{margin-top: 150%; margin-left: 65%;}
+    87.5%{margin-top: 150%; margin-left: 37.5%;}
+    99%{margin-top: 150%; margin-left: 10%;}
+  }
+  .hold4{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 150%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part4 15s infinite forwards;
+  }
+  @keyframes part4 {
+    0{margin-top: 150%; margin-left: 37.5%;}
+    12.50%{margin-top: 80%; margin-left: 37.5%;}
+    25%{margin-top: 10%; margin-left: 37.5%;}
+    37.5%{margin-top: 10%; margin-left: 65%;}
+    50%{margin-top: 80%; margin-left: 65%;}
+    62.5%{margin-top: 150%; margin-left: 65%;}
+    75%{margin-top: 150%; margin-left: 37.5%;}
+    87.5%{margin-top: 150%; margin-left: 10%;}
+    99%{margin-top: 150%; margin-left: 37.5%;}
+  }
+  .hold5{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 80%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part5 15s infinite forwards;
+  }
+  @keyframes part5 {
+    0{margin-top: 80%; margin-left: 37.5%;}
+    12.50%{margin-top: 10%; margin-left: 37.5%;}
+    25%{margin-top: 10%; margin-left: 65%;}
+    37.5%{margin-top: 80%; margin-left: 65%;}
+    50%{margin-top: 150%; margin-left: 65%;}
+    62.5%{margin-top: 150%; margin-left: 37.5%;}
+    75%{margin-top: 150%; margin-left: 10%;}
+    87.5%{margin-top: 80%; margin-left: 10%;}
+    99%{margin-top: 80%; margin-left: 37.5%;}
+  }
+  .hold6{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part6 15s infinite forwards;
+  }
+  @keyframes part6 {
+    0{margin-top: 10%; margin-left: 37.5%;}
+    12.50%{margin-top: 10%; margin-left: 65%;}
+    25%{margin-top: 80%; margin-left: 65%;}
+    37.5%{margin-top: 150%; margin-left: 65%;}
+    50%{margin-top: 150%; margin-left: 37.5%;}
+    62.5%{margin-top: 150%; margin-left: 10%;}
+    75%{margin-top: 80%; margin-left: 10%;}
+    87.5%{margin-top: 10%; margin-left: 10%;}
+    99%{margin-top: 10%; margin-left: 37.5%;}
+  }
+  #stockList{
+    opacity: 0.95;
+    width: 70%;
+    height: 150px;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 1.25em;
+    background-color: seagreen;
+
+    display: none;
+  }
+  .stocks{
+    list-style-type: none;
+    display: list-item;
+    color: black;
+    text-align: left;
+    background-color: transparent;
+  }
+  .top3{
+    color: seagreen;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .line1{
+    border: none;
+    height: 2.5px;
+    color: seagreen;
+    background-color: seagreen;
+  }
+  .crypto{
+    margin-left: 10%;
+    width: 20%;
+    height: 250px;
+    display: inline-block;
+  }
+  .top1{
+    height: 100%;
+    width: 100%;
+  }
+  .info1, .info2, .info3{
+    text-align: center;
+  }
+  .info1{
+    color: seagreen;
+    font-size: 100%;
+    font-weight: bold;
+  }
+  .info2{
+    font-size: 160%;
+  }
+  .preopen{
+    text-decoration: none;
+  }
+  .open{
+    background-color: rgb(50,50,50);
+    padding: 7.5% 10%;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    width: 100%;
+    margin-top: -5%;
+    text-align: center;
+  }
+  .open:hover{
+    color: rgb(50,50,50);
+    background-color: lightgray;
+  }
+  .bottom3{
+    color: seagreen;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+  .luckyLucky{
+    background-color: rgb(215,181,100);
+    border-radius: 50%;
+    height: 50px;
+    width: 8%;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    font-size: 0.75em;
+  }
+  .luckyLucky:hover{
+    box-shadow: 0px 0px 10px 3px gold;
+    background-color: gold;
+  }
+  .luckyLucky a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(33,22,11);
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+    background-color: transparent;
+  }
+  .luckyLucky2{
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5%;
+    right: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .luckyLucky2 button{
+    text-decoration: none;
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .trueGift{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .trueGift:hover{
+    box-shadow: 0px 0px 10px 3px rgb(133,114,37);
+    background-color: rgb(133,114,37);
+  }
+  .dogeDoge{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .goingUp{
+    height: 60px;
+    width: 10%;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5%;
+    left: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .goingUp a{
+    text-decoration: none;
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .trueUp{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .trueUp:hover{
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+  }
+  .upArrow{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .luckyLucky3{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    width: 5%;
+    position: fixed;
+    bottom: 1.5%;
+    right: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .luckyLucky3 img{
+    text-decoration: none;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .animatedDog{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .dogeAnimation1{
+    animation: movingDoge1 15s 1;
+  }
+  .dogeAnimation2{
+    animation: movingDoge2 15s 1;
+  }
+  .dogeAnimation3{
+    animation: movingDoge3 15s 1;
+  }
+  .dogeAnimation4{
+    animation: movingDoge4 15s 1;
+  }
+  /* This section below contains calculations for a css pathway which is 25% of a circle and which I realized after could likely have been more effectively created using javascript (will explore this capability in the future if I come back to needing a circular pathway)*/
+  @keyframes movingDoge1{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-670px) translateY(-200px);}
+    24.7222222222%{transform: translateX(-668.2548px) translateY(-200.0152px);}
+    25.00%{transform: translateX(-666.5101px) translateY(-200.0609px);}
+    25.28%{transform: translateX(-664.7664px)	translateY(-200.1370px);}
+    25.56%{transform: translateX(-663.0244px)	translateY(-200.2436px);}
+    25.83%{transform: translateX(-661.2844px)	translateY(-200.3805px);}
+    26.11%{transform: translateX(-659.5472px)	translateY(-200.5478px);}
+    26.39%{transform: translateX(-657.8131px)	translateY(-200.7454px);}
+    26.67%{transform: translateX(-656.0827px) translateY(-200.9732px);}
+    26.94%{transform: translateX(-654.3566px)	translateY(-201.2312px);}
+    27.22%{transform: translateX(-652.6352px)	translateY(-201.5192px);}
+    27.50%{transform: translateX(-650.9191px)	translateY(-201.8373px);}
+    27.78%{transform: translateX(-649.2088px)	translateY(-202.1852px);}
+    28.06%{transform: translateX(-647.5049px)	translateY(-202.5630px);}
+    28.33%{transform: translateX(-645.8078px)	translateY(-202.9704px);}
+    28.61%{transform: translateX(-644.1181px)	translateY(-203.4074px);}
+    28.89%{transform: translateX(-642.4363px) translateY(-203.8738px);}
+    29.17%{transform: translateX(-640.7628px)	translateY(-204.3695px);}
+    29.44%{transform: translateX(-639.0983px)	translateY(-204.8943px);}
+    29.72%{transform: translateX(-637.4432px)	translateY(-205.4481px);}
+    30.00%{transform: translateX(-635.7980px)	translateY(-206.0307px);}
+    30.28%{transform: translateX(-634.1632px)	translateY(-206.6420px);}
+    30.56%{transform: translateX(-632.5393px) translateY(-207.2816px);}
+    30.83%{transform: translateX(-630.9269px)	translateY(-207.9495px);}
+    31.11%{transform: translateX(-629.3263px)	translateY(-208.6455px);}
+    31.39%{transform: translateX(-627.7382px)	translateY(-209.3692px);}
+    31.67%{transform: translateX(-626.1629px)	translateY(-210.1206px);}
+    31.94%{transform: translateX(-624.6010px)	translateY(-210.8993px);}
+    32.22%{transform: translateX(-623.0528px)	translateY(-211.7052px);}
+    32.50%{transform: translateX(-621.5190px)	translateY(-212.5380px);}
+    32.78%{transform: translateX(-620.0000px)	translateY(-213.3975px);}
+    33.06%{transform: translateX(-618.4962px)	translateY(-214.2833px);}
+    33.33%{transform: translateX(-617.0081px)	translateY(-215.1952px);}
+    33.61%{transform: translateX(-615.5361px)	translateY(-216.1329px);}
+    33.89%{transform: translateX(-614.0807px)	translateY(-217.0962px);}
+    34.17%{transform: translateX(-612.6424px)	translateY(-218.0848px);}
+    34.44%{transform: translateX(-611.2215px) translateY(-219.0983px);}
+    34.72%{transform: translateX(-609.8185px)	translateY(-220.1364px);}
+    35.00%{transform: translateX(-608.4339px)	translateY(-221.1989px);}
+    35.28%{transform: translateX(-607.0680px)	translateY(-222.2854px);}
+    35.56%{transform: translateX(-605.7212px)	translateY(-223.3956px);}
+    35.83%{transform: translateX(-604.3941px)	translateY(-224.5290px);}
+    36.11%{transform: translateX(-603.0869px)	translateY(-225.6855px);}
+    36.39%{transform: translateX(-601.8002px)	translateY(-226.8646px);}
+    36.67%{transform: translateX(-600.5342px)	translateY(-228.0660px);}
+    36.94%{transform: translateX(-599.2893px)	translateY(-229.2893px);}
+    37.22%{transform: translateX(-598.0660px)	translateY(-230.5342px);}
+    37.50%{transform: translateX(-596.8646px)	translateY(-231.8002px);}
+    37.78%{transform: translateX(-595.6855px)	translateY(-233.0869px);}
+    38.06%{transform: translateX(-594.5290px)	translateY(-234.3941px);}
+    38.33%{transform: translateX(-593.3956px)	translateY(-235.7212px);}
+    38.61%{transform: translateX(-592.2854px)	translateY(-237.0680px);}
+    38.89%{transform: translateX(-591.1989px)	translateY(-238.4339px);}
+    39.17%{transform: translateX(-590.1364px)	translateY(-239.8185px);}
+    39.44%{transform: translateX(-589.0983px)	translateY(-241.2215px);}
+    39.72%{transform: translateX(-588.0848px)	translateY(-242.6424px);}
+    40.00%{transform: translateX(-587.0962px)	translateY(-244.0807px);}
+    40.28%{transform: translateX(-586.1329px)	translateY(-245.5361px);}
+    40.56%{transform: translateX(-585.1952px)	translateY(-247.0081px);}
+    40.83%{transform: translateX(-584.2833px) translateY(-248.4962px);}
+    41.11%{transform: translateX(-583.3975px)	translateY(-250.0000px);}
+    41.39%{transform: translateX(-582.5380px)	translateY(-251.5190px);}
+    41.67%{transform: translateX(-581.7052px)	translateY(-253.0528px);}
+    41.94%{transform: translateX(-580.8993px)	translateY(-254.6010px);}
+    42.22%{transform: translateX(-580.1206px)	translateY(-256.1629px);}
+    42.50%{transform: translateX(-579.3692px)	translateY(-257.7382px);}
+    42.78%{transform: translateX(-578.6455px)	translateY(-259.3263px);}
+    43.06%{transform: translateX(-577.9495px)	translateY(-260.9269px);}
+    43.33%{transform: translateX(-577.2816px)	translateY(-262.5393px);}
+    43.61%{transform: translateX(-576.6420px)	translateY(-264.1632px);}
+    43.89%{transform: translateX(-576.0307px)	translateY(-265.7980px);}
+    44.17%{transform: translateX(-575.4481px)	translateY(-267.4432px);}
+    44.44%{transform: translateX(-574.8943px)	translateY(-269.0983px);}
+    44.72%{transform: translateX(-574.3695px)	translateY(-270.7628px);}
+    45.00%{transform: translateX(-573.8738px)	translateY(-272.4363px);}
+    45.28%{transform: translateX(-573.4074px)	translateY(-274.1181px);}
+    45.56%{transform: translateX(-572.9704px)	translateY(-275.8078px);}
+    45.83%{transform: translateX(-572.5630px) translateY(-277.5049px);}
+    46.11%{transform: translateX(-572.1852px) translateY(-279.2088px);}
+    46.39%{transform: translateX(-571.8373px)	translateY(-280.9191px);}
+    46.67%{transform: translateX(-571.5192px)	translateY(-282.6352px);}
+    46.94%{transform: translateX(-571.2312px)	translateY(-284.3566px);}
+    47.22%{transform: translateX(-570.9732px)	translateY(-286.0827px);}
+    47.50%{transform: translateX(-570.7454px)	translateY(-287.8131px);}
+    47.78%{transform: translateX(-570.5478px)	translateY(-289.5472px);}
+    48.06%{transform: translateX(-570.3805px)	translateY(-291.2844px);}
+    48.33%{transform: translateX(-570.2436px)	translateY(-293.0244px);}
+    48.61%{transform: translateX(-570.1370px)	translateY(-294.7664px);}
+    48.89%{transform: translateX(-570.0609px)	translateY(-296.5101px);}
+    49.17%{transform: translateX(-570.0152px)	translateY(-298.2548px);}
+    50%{transform: translateX(-570px)	translateY(-300px);}
+  }
+  @keyframes movingDoge2{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-670px) translateY(-400px);}
+    24.7222222222%{transform: translateX(-671.7452px) 	translateY(-399.9848px);}
+    25.00%{transform: translateX(-673.4899px) translateY(-399.9391px);}
+    25.28%{transform: translateX(-675.2336px) translateY(-399.8630px);}
+    25.56%{transform: translateX(-676.9756px) translateY(-399.7564px);}
+    25.83%{transform: translateX(-678.7156px) translateY(-399.6195px);}
+    26.11%{transform: translateX(-680.4528px) translateY(-399.4522px);}
+    26.39%{transform: translateX(-682.1869px) translateY(-399.2546px);}
+    26.67%{transform: translateX(-683.9173px) translateY(-399.0268px);}
+    26.94%{transform: translateX(-685.6434px) translateY(-398.7688px);}
+    27.22%{transform: translateX(-687.3648px) translateY(-398.4808px);}
+    27.50%{transform: translateX(-689.0809px) translateY(-398.1627px);}
+    27.78%{transform: translateX(-690.7912px)	translateY(-397.8148px);}
+    28.06%{transform: translateX(-692.4951px) translateY(-397.4370px);}
+    28.33%{transform: translateX(-694.1922px) translateY(-397.0296px);}
+    28.61%{transform: translateX(-695.8819px) translateY(-396.5926px);}
+    28.89%{transform: translateX(-697.5637px) translateY(-396.1262px);}
+    29.17%{transform: translateX(-699.2372px) translateY(-395.6305px);}
+    29.44%{transform: translateX(-700.9017px) translateY(-395.1057px);}
+    29.72%{transform: translateX(-702.5568px)	translateY(-394.5519px);}
+    30.00%{transform: translateX(-704.2020px)	translateY(-393.9693px);}
+    30.28%{transform: translateX(-705.8368px)	translateY(-393.3580px);}
+    30.56%{transform: translateX(-707.4607px)	translateY(-392.7184px);}
+    30.83%{transform: translateX(-709.0731px)	translateY(-392.0505px);}
+    31.11%{transform: translateX(-710.6737px)	translateY(-391.3545px);}
+    31.39%{transform: translateX(-712.2618px)	translateY(-390.6308px);}
+    31.67%{transform: translateX(-713.8371px)	translateY(-389.8794px);}
+    31.94%{transform: translateX(-715.3990px) translateY(-389.1007px);}
+    32.22%{transform: translateX(-716.9472px)	translateY(-388.2948px);}
+    32.50%{transform: translateX(-718.4810px)	translateY(-387.4620px);}
+    32.78%{transform: translateX(-720.0000px)	translateY(-386.6025px);}
+    33.06%{transform: translateX(-721.5038px)	translateY(-385.7167px);}
+    33.33%{transform: translateX(-722.9919px)	translateY(-384.8048px);}
+    33.61%{transform: translateX(-724.4639px)	translateY(-383.8671px);}
+    33.89%{transform: translateX(-725.9193px) translateY(-382.9038px);}
+    34.17%{transform: translateX(-727.3576px) translateY(-381.9152px);}
+    34.44%{transform: translateX(-728.7785px)	translateY(-380.9017px);}
+    34.72%{transform: translateX(-730.1815px) translateY(-379.8636px);}
+    35.00%{transform: translateX(-731.5661px) translateY(-378.8011px);}
+    35.28%{transform: translateX(-732.9320px) translateY(-377.7146px);}
+    35.56%{transform: translateX(-734.2788px) translateY(-376.6044px);}
+    35.83%{transform: translateX(-735.6059px) translateY(-375.4710px);}
+    36.11%{transform: translateX(-736.9131px) translateY(-374.3145px);}
+    36.39%{transform: translateX(-738.1998px)	translateY(-373.1354px);}
+    36.67%{transform: translateX(-739.4658px)	translateY(-371.9340px);}
+    36.94%{transform: translateX(-740.7107px) translateY(-370.7107px);}
+    37.22%{transform: translateX(-741.9340px) translateY(-369.4658px);}
+    37.50%{transform: translateX(-743.1354px) translateY(-368.1998px);}
+    37.78%{transform: translateX(-744.3145px) translateY(-366.9131px);}
+    38.06%{transform: translateX(-745.4710px) translateY(-365.6059px);}
+    38.33%{transform: translateX(-746.6044px)	translateY(-364.2788px);}
+    38.61%{transform: translateX(-747.7146px)	translateY(-362.9320px);}
+    38.89%{transform: translateX(-748.8011px)	translateY(-361.5661px);}
+    39.17%{transform: translateX(-749.8636px)	translateY(-360.1815px);}
+    39.44%{transform: translateX(-750.9017px) translateY(-358.7785px);}
+    39.72%{transform: translateX(-751.9152px) translateY(-357.3576px);}
+    40.00%{transform: translateX(-752.9038px)	translateY(-355.9193px);}
+    40.28%{transform: translateX(-753.8671px)	translateY(-354.4639px);}
+    40.56%{transform: translateX(-754.8048px)	translateY(-352.9919px);}
+    40.83%{transform: translateX(-755.7167px) translateY(-351.5038px);}
+    41.11%{transform: translateX(-756.6025px) translateY(-350.0000px);}
+    41.39%{transform: translateX(-757.4620px)	translateY(-348.4810px);}
+    41.67%{transform: translateX(-758.2948px)	translateY(-346.9472px);}
+    41.94%{transform: translateX(-759.1007px) translateY(-345.3990px);}
+    42.22%{transform: translateX(-759.8794px) translateY(-343.8371px);}
+    42.50%{transform: translateX(-760.6308px) translateY(-342.2618px);}
+    42.78%{transform: translateX(-761.3545px)	translateY(-340.6737px);}
+    43.06%{transform: translateX(-762.0505px)	translateY(-339.0731px);}
+    43.33%{transform: translateX(-762.7184px) translateY(-337.4607px);}
+    43.61%{transform: translateX(-763.3580px) translateY(-335.8368px);}
+    43.89%{transform: translateX(-763.9693px) translateY(-334.2020px);}
+    44.17%{transform: translateX(-764.5519px)	translateY(-332.5568px);}
+    44.44%{transform: translateX(-765.1057px)	translateY(-330.9017px);}
+    44.72%{transform: translateX(-765.6305px)	translateY(-329.2372px);}
+    45.00%{transform: translateX(-766.1262px)	translateY(-327.5637px);}
+    45.28%{transform: translateX(-766.5926px) translateY(-325.8819px);}
+    45.56%{transform: translateX(-767.0296px)	translateY(-324.1922px);}
+    45.83%{transform: translateX(-767.4370px) translateY(-322.4951px);}
+    46.11%{transform: translateX(-767.8148px) translateY(-320.7912px);}
+    46.39%{transform: translateX(-768.1627px)	translateY(-319.0809px);}
+    46.67%{transform: translateX(-768.4808px)	translateY(-317.3648px);}
+    46.94%{transform: translateX(-768.7688px)	translateY(-315.6434px);}
+    47.22%{transform: translateX(-769.0268px)	translateY(-313.9173px);}
+    47.50%{transform: translateX(-769.2546px) translateY(-312.1869px);}
+    47.78%{transform: translateX(-769.4522px)	translateY(-310.4528px);}
+    48.06%{transform: translateX(-769.6195px) translateY(-308.7156px);}
+    48.33%{transform: translateX(-769.7564px)	translateY(-306.9756px);}
+    48.61%{transform: translateX(-769.8630px)	translateY(-305.2336px);}
+    48.89%{transform: translateX(-769.9391px)	translateY(-303.4899px);}
+    49.17%{transform: translateX(-769.9848px) translateY(-301.7452px);}
+    50%{transform: translateX(-770px)	translateY(-300px);}
+  }
+  @keyframes movingDoge3{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-770px) translateY(-300px);}
+    24.7222222222%{transform: translateX(-769.9848px) translateY(-298.2548px);}
+    25.00%{transform: translateX(-769.9391px) translateY(-296.5101px);}
+    25.28%{transform: translateX(-769.8630px) translateY(-294.7664px);}
+    25.56%{transform: translateX(-769.7564px)	translateY(-293.0244px);}
+    25.83%{transform: translateX(-769.6195px) translateY(-291.2844px);}
+    26.11%{transform: translateX(-769.4522px) translateY(-289.5472px);}
+    26.39%{transform: translateX(-769.2546px)	translateY(-287.8131px);}
+    26.67%{transform: translateX(-769.0268px) translateY(-286.0827px);}
+    26.94%{transform: translateX(-768.7688px) translateY(-284.3566px);}
+    27.22%{transform: translateX(-768.4808px) translateY(-282.6352px);}
+    27.50%{transform: translateX(-768.1627px)	translateY(-280.9191px);}
+    27.78%{transform: translateX(-767.8148px) translateY(-279.2088px);}
+    28.06%{transform: translateX(-767.4370px)	translateY(-277.5049px);}
+    28.33%{transform: translateX(-767.0296px)	translateY(-275.8078px);}
+    28.61%{transform: translateX(-766.5926px) translateY(-274.1181px);}
+    28.89%{transform: translateX(-766.1262px) translateY(-272.4363px);}
+    29.17%{transform: translateX(-765.6305px) translateY(-270.7628px);}
+    29.44%{transform: translateX(-765.1057px) translateY(-269.0983px);}
+    29.72%{transform: translateX(-764.5519px) translateY(-267.4432px);}
+    30.00%{transform: translateX(-763.9693px)	translateY(-265.7980px);}
+    30.28%{transform: translateX(-763.3580px)	translateY(-264.1632px);}
+    30.56%{transform: translateX(-762.7184px)	translateY(-262.5393px);}
+    30.83%{transform: translateX(-762.0505px)	translateY(-260.9269px);}
+    31.11%{transform: translateX(-761.3545px)	translateY(-259.3263px);}
+    31.39%{transform: translateX(-760.6308px)	translateY(-257.7382px);}
+    31.67%{transform: translateX(-759.8794px)	translateY(-256.1629px);}
+    31.94%{transform: translateX(-759.1007px)	translateY(-254.6010px);}
+    32.22%{transform: translateX(-758.2948px)	translateY(-253.0528px);}
+    32.50%{transform: translateX(-757.4620px)	translateY(-251.5190px);}
+    32.78%{transform: translateX(-756.6025px)	translateY(-250.0000px);}
+    33.06%{transform: translateX(-755.7167px) translateY(-248.4962px);}
+    33.33%{transform: translateX(-754.8048px)	translateY(-247.0081px);}
+    33.61%{transform: translateX(-753.8671px)	translateY(-245.5361px);}
+    33.89%{transform: translateX(-752.9038px) translateY(-244.0807px);}
+    34.17%{transform: translateX(-751.9152px)	translateY(-242.6424px);}
+    34.44%{transform: translateX(-750.9017px)	translateY(-241.2215px);}
+    34.72%{transform: translateX(-749.8636px) translateY(-239.8185px);}
+    35.00%{transform: translateX(-748.8011px) translateY(-238.4339px);}
+    35.28%{transform: translateX(-747.7146px)	translateY(-237.0680px);}
+    35.56%{transform: translateX(-746.6044px)	translateY(-235.7212px);}
+    35.83%{transform: translateX(-745.4710px) translateY(-234.3941px);}
+    36.11%{transform: translateX(-744.3145px)	translateY(-233.0869px);}
+    36.39%{transform: translateX(-743.1354px) translateY(-231.8002px);}
+    36.67%{transform: translateX(-741.9340px) translateY(-230.5342px);}
+    36.94%{transform: translateX(-740.7107px) translateY(-229.2893px);}
+    37.22%{transform: translateX(-739.4658px)	translateY(-228.0660px);}
+    37.50%{transform: translateX(-738.1998px)	translateY(-226.8646px);}
+    37.78%{transform: translateX(-736.9131px)	translateY(-225.6855px);}
+    38.06%{transform: translateX(-735.6059px) translateY(-224.5290px);}
+    38.33%{transform: translateX(-734.2788px)	translateY(-223.3956px);}
+    38.61%{transform: translateX(-732.9320px) translateY(-222.2854px);}
+    38.89%{transform: translateX(-731.5661px)	translateY(-221.1989px);}
+    39.17%{transform: translateX(-730.1815px)	translateY(-220.1364px);}
+    39.44%{transform: translateX(-728.7785px)	translateY(-219.0983px);}
+    39.72%{transform: translateX(-727.3576px)	translateY(-218.0848px);}
+    40.00%{transform: translateX(-725.9193px)	translateY(-217.0962px);}
+    40.28%{transform: translateX(-724.4639px)	translateY(-216.1329px);}
+    40.56%{transform: translateX(-722.9919px)	translateY(-215.1952px);}
+    40.83%{transform: translateX(-721.5038px)	translateY(-214.2833px);}
+    41.11%{transform: translateX(-720.0000px)	translateY(-213.3975px);}
+    41.39%{transform: translateX(-718.4810px)	translateY(-212.5380px);}
+    41.67%{transform: translateX(-716.9472px)	translateY(-211.7052px);}
+    41.94%{transform: translateX(-715.3990px)	translateY(-210.8993px);}
+    42.22%{transform: translateX(-713.8371px)	translateY(-210.1206px);}
+    42.50%{transform: translateX(-712.2618px)	translateY(-209.3692px);}
+    42.78%{transform: translateX(-710.6737px)	translateY(-208.6455px);}
+    43.06%{transform: translateX(-709.0731px)	translateY(-207.9495px);}
+    43.33%{transform: translateX(-707.4607px)	translateY(-207.2816px);}
+    43.61%{transform: translateX(-705.8368px)	translateY(-206.6420px);}
+    43.89%{transform: translateX(-704.2020px)	translateY(-206.0307px);}
+    44.17%{transform: translateX(-702.5568px)	translateY(-205.4481px);}
+    44.44%{transform: translateX(-700.9017px)	translateY(-204.8943px);}
+    44.72%{transform: translateX(-699.2372px)	translateY(-204.3695px);}
+    45.00%{transform: translateX(-697.5637px)	translateY(-203.8738px);}
+    45.28%{transform: translateX(-695.8819px)	translateY(-203.4074px);}
+    45.56%{transform: translateX(-694.1922px)	translateY(-202.9704px);}
+    45.83%{transform: translateX(-692.4951px)	translateY(-202.5630px);}
+    46.11%{transform: translateX(-690.7912px)	translateY(-202.1852px);}
+    46.39%{transform: translateX(-689.0809px)	translateY(-201.8373px);}
+    46.67%{transform: translateX(-687.3648px)	translateY(-201.5192px);}
+    46.94%{transform: translateX(-685.6434px)	translateY(-201.2312px);}
+    47.22%{transform: translateX(-683.9173px)	translateY(-200.9732px);}
+    47.50%{transform: translateX(-682.1869px)	translateY(-200.7454px);}
+    47.78%{transform: translateX(-680.4528px)	translateY(-200.5478px);}
+    48.06%{transform: translateX(-678.7156px)	translateY(-200.3805px);}
+    48.33%{transform: translateX(-676.9756px)	translateY(-200.2436px);}
+    48.61%{transform: translateX(-675.2336px)	translateY(-200.1370px);}
+    48.89%{transform: translateX(-673.4899px)	translateY(-200.0609px);}
+    49.17%{transform: translateX(-671.7452px)	translateY(-200.0152px);}
+    50%{transform: translateX(-670px)	translateY(-200px);}
+  }
+  @keyframes movingDoge4{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-570px) translateY(-300px);}
+    24.7222222222%{transform: translateX(-570.0152px) translateY(-301.7452px);}
+    25.00%{transform: translateX(-570.0609px) translateY(-303.4899px);}
+    25.28%{transform: translateX(-570.1370px) translateY(-305.2336px);}
+    25.56%{transform: translateX(-570.2436px) translateY(-306.9756px);}
+    25.83%{transform: translateX(-570.3805px) translateY(-308.7156px);}
+    26.11%{transform: translateX(-570.3805px) translateY(-308.7156px);}
+    26.39%{transform: translateX(-570.5478px) translateY(-310.4528px);}
+    26.67%{transform: translateX(-570.7454px) translateY(-312.1869px);}
+    26.94%{transform: translateX(-570.9732px) translateY(-313.9173px);}
+    27.22%{transform: translateX(-571.2312px) translateY(-315.6434px);}
+    27.50%{transform: translateX(-571.5192px) translateY(-317.3648px);}
+    27.78%{transform: translateX(-571.8373px) translateY(-319.0809px);}
+    28.06%{transform: translateX(-572.1852px) translateY(-320.7912px);}
+    28.33%{transform: translateX(-572.5630px) translateY(-322.4951px);}
+    28.61%{transform: translateX(-572.9704px) translateY(-324.1922px);}
+    28.89%{transform: translateX(-573.4074px) translateY(-325.8819px);}
+    29.17%{transform: translateX(-573.8738px) translateY(-327.5637px);}
+    29.44%{transform: translateX(-574.3695px) translateY(-329.2372px);}
+    29.72%{transform: translateX(-574.8943px) translateY(-330.9017px);}
+    30.00%{transform: translateX(-575.4481px) translateY(-332.5568px);}
+    30.28%{transform: translateX(-576.0307px) translateY(-334.2020px);}
+    30.56%{transform: translateX(-576.6420px) translateY(-335.8368px);}
+    30.83%{transform: translateX(-577.2816px) translateY(-337.4607px);}
+    31.11%{transform: translateX(-577.9495px) translateY(-339.0731px);}
+    31.39%{transform: translateX(-578.6455px) translateY(-340.6737px);}
+    31.67%{transform: translateX(-579.3692px) translateY(-342.2618px);}
+    31.94%{transform: translateX(-580.1206px) translateY(-343.8371px);}
+    32.22%{transform: translateX(-580.8993px) translateY(-345.3990px);}
+    32.50%{transform: translateX(-581.7052px) translateY(-346.9472px);}
+    32.78%{transform: translateX(-582.5380px) translateY(-348.4810px);}
+    33.06%{transform: translateX(-583.3975px) translateY(-350.0000px);}
+    33.33%{transform: translateX(-584.2833px) translateY(-351.5038px);}
+    33.61%{transform: translateX(-585.1952px) translateY(-352.9919px);}
+    33.89%{transform: translateX(-586.1329px) translateY(-354.4639px);}
+    34.17%{transform: translateX(-587.0962px) translateY(-355.9193px);}
+    34.44%{transform: translateX(-588.0848px) translateY(-357.3576px);}
+    34.72%{transform: translateX(-589.0983px) translateY(-358.7785px);}
+    35.00%{transform: translateX(-590.1364px) translateY(-360.1815px);}
+    35.28%{transform: translateX(-591.1989px) translateY(-361.5661px);}
+    35.56%{transform: translateX(-592.2854px) translateY(-362.9320px);}
+    35.83%{transform: translateX(-593.3956px) translateY(-364.2788px);}
+    36.11%{transform: translateX(-594.5290px) translateY(-365.6059px);}
+    36.39%{transform: translateX(-595.6855px) translateY(-366.9131px);}
+    36.67%{transform: translateX(-596.8646px) translateY(-368.1998px);}
+    36.94%{transform: translateX(-598.0660px) translateY(-369.4658px);}
+    37.22%{transform: translateX(-599.2893px) translateY(-370.7107px);}
+    37.50%{transform: translateX(-600.5342px) translateY(-371.9340px);}
+    37.78%{transform: translateX(-601.8002px) translateY(-373.1354px);}
+    38.06%{transform: translateX(-603.0869px) translateY(-374.3145px);}
+    38.33%{transform: translateX(-604.3941px) translateY(-375.4710px);}
+    38.61%{transform: translateX(-605.7212px) translateY(-376.6044px);}
+    38.89%{transform: translateX(-607.0680px) translateY(-377.7146px);}
+    39.17%{transform: translateX(-608.4339px) translateY(-378.8011px);}
+    39.44%{transform: translateX(-609.8185px) translateY(-379.8636px);}
+    39.72%{transform: translateX(-611.2215px) translateY(-380.9017px);}
+    40.00%{transform: translateX(-612.6424px) translateY(-381.9152px);}
+    40.28%{transform: translateX(-614.0807px) translateY(-382.9038px);}
+    40.56%{transform: translateX(-615.5361px) translateY(-383.8671px);}
+    40.83%{transform: translateX(-617.0081px) translateY(-384.8048px);}
+    41.11%{transform: translateX(-618.4962px) translateY(-385.7167px);}
+    41.39%{transform: translateX(-620.0000px) translateY(-386.6025px);}
+    41.67%{transform: translateX(-621.5190px) translateY(-387.4620px);}
+    41.94%{transform: translateX(-623.0528px) translateY(-388.2948px);}
+    42.22%{transform: translateX(-624.6010px) translateY(-389.1007px);}
+    42.50%{transform: translateX(-626.1629px) translateY(-389.8794px);}
+    42.78%{transform: translateX(-627.7382px) translateY(-390.6308px);}
+    43.06%{transform: translateX(-629.3263px) translateY(-391.3545px);}
+    43.33%{transform: translateX(-630.9269px) translateY(-392.0505px);}
+    43.61%{transform: translateX(-632.5393px) translateY(-392.7184px);}
+    43.89%{transform: translateX(-634.1632px) translateY(-393.3580px);}
+    44.17%{transform: translateX(-635.7980px) translateY(-393.9693px);}
+    44.44%{transform: translateX(-637.4432px) translateY(-394.5519px);}
+    44.72%{transform: translateX(-639.0983px) translateY(-395.1057px);}
+    45.00%{transform: translateX(-640.7628px) translateY(-395.6305px);}
+    45.28%{transform: translateX(-642.4363px) translateY(-396.1262px);}
+    45.56%{transform: translateX(-644.1181px) translateY(-396.5926px);}
+    45.83%{transform: translateX(-645.8078px) translateY(-397.0296px);}
+    46.11%{transform: translateX(-647.5049px) translateY(-397.4370px);}
+    46.39%{transform: translateX(-649.2088px) translateY(-397.8148px);}
+    46.67%{transform: translateX(-650.9191px) translateY(-398.1627px);}
+    46.94%{transform: translateX(-652.6352px) translateY(-398.4808px);}
+    47.22%{transform: translateX(-654.3566px) translateY(-398.7688px);}
+    47.50%{transform: translateX(-656.0827px) translateY(-399.0268px);}
+    47.78%{transform: translateX(-657.8131px) translateY(-399.2546px);}
+    48.06%{transform: translateX(-659.5472px) translateY(-399.4522px);}
+    48.33%{transform: translateX(-661.2844px) translateY(-399.6195px);}
+    48.61%{transform: translateX(-663.0244px) translateY(-399.7564px);}
+    48.89%{transform: translateX(-664.7664px) translateY(-399.8630px);}
+    49.17%{transform: translateX(-666.5101px) translateY(-399.9391px);}
+    50%{transform: translateX(-670px) translateY(-400px);}
+  }
+  /* This section above contains calculations for a css pathway which is 25% of a circle and which I realized after could likely have been more effectively created using javascript (will explore this capability in the future if I come back to needing a circular pathway)*/
+  .purchaseTicket{
+    background-color: mediumseagreen;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    width: 5%;
+    position: fixed;
+    bottom: 10%;
+    right: 0.5%;
+    display: none;
+  }
+  .purchaseTicket:hover{
+    box-shadow: 0px 0px 10px 3px mediumseagreen;
+  }
+  .purchaseTicket a{
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .purchaseTicket img{
+    text-decoration: none;
+    padding: 10%;
+    margin-top: 0%;
+    background-color: transparent;
+  }
+  .nonanimatedTicket{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .newModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .newModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .newModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .aSpin{
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  .line0{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: -1%;
+    width: 80%;
+  }
+  .newLine{
+    border: none;
+    height: 1px;
+    background-color: red;
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+  }
+  .slideshow0{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 6.25%;
+    width: 25%;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .spinWrapper1{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg1{
+    width: 100%;
+    height: 5.5%;
+    margin-bottom: -2.75%;
+    margin-top: 4%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge1{
+    width: 100%;
+    margin-top: -2.5%;
+    height: 7.5%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spinWrapper2{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg2{
+    width: 100%;
+    height: 5.5%;
+    margin-bottom: -2.75%;
+    margin-top: 4%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge2{
+    width: 100%;
+    margin-top: -2.5%;
+    height: 7.5%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spinWrapper3{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg3{
+    width: 100%;
+    height: 5.5%;
+    margin-bottom: -5.75%;
+    margin-top: 3.75%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge3{
+    width: 100%;
+    margin-top: -2.5%;
+    height: 7.5%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .animation1{
+    animation: aNewSlideshow 7.5s infinite;
+    animation-direction: alternate;
+  }
+  .animation2{
+    animation: aNewSlideshow 10s infinite;
+    animation-direction: alternate;
+  }
+  .animation3{
+    animation: aNewSlideshow 12.5s infinite;
+    animation-direction: alternate;
+  }
+  @keyframes aNewSlideshow{
+    0%{margin-top: 0%;}
+    10%{margin-top: -100%;}
+    30%{margin-top: -100%;}
+    40%{margin-top: -200%;}
+    60%{margin-top: -200%;}
+    70%{margin-top: -300%;}
+    90%{margin-top: -300%;}
+    100%{margin-top: -300%;}
+  }
+  .to-start{
+    background-color: red;
+    color: gold;
+    margin-left: 6.25%;
+    width: 25%;
+    margin-top: 10.5%;
+    display: inline-block;
+    float: left;
+    font-size: 0.5em;
+  }
+  .to-select{
+    background-color: gold;
+    color: red;
+    margin-left: 37.5%;
+    width: 25%;
+    margin-top: 9%;
+    display: inline-block;
+    float: left;
+    font-size: 0.5em;
+  }
+  .containsGift{
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .gift{
+    background-color: black;
+    color: palegreen;
+    margin-left: 30%;
+    margin-top: 140%;
+    width: 40%;
+    display: none;
+    position: absolute;
+    font-size: 0.1em;
+  }
+  .gift:hover{
+    background-color: palegreen;
+    color: black;
+  }
+  .ticketModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .ticketModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .ticketModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .theBacking{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+  }
+  .ticketTitle{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: 0.5em;
+    margin-left: 33.5%;
+    width: 33%;
+  }
+  .winning{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 120px;
+    margin-top: 10%;
+    background-color: salmon;
+    font-size: 0.5em;
+    position: absolute;
+    animation: down 10s infinite forwards;
+  }
+  @keyframes down {
+    0{margin-top: 10%; margin-left: 10%;}
+    12.50%{margin-top: 25%; margin-left: 10%;}
+    25%{margin-top: 50%; margin-left: 10%;}
+    37.5%{margin-top: 50%; margin-left: 32.5%;}
+    50%{margin-top: 50%; margin-left: 65%;}
+    62.5%{margin-top: 25%; margin-left: 65%;}
+    75%{margin-top: 10%; margin-left: 65%;}
+    87.5%{margin-top: 10%; margin-left: 32.5%;}
+    99%{margin-top: 10%; margin-left: 10%;}
+  }
+  .wow1{
+    color: white;
+  }
+  .winning p, .winning b, .winning i{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+  }
+  .losing{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 65%;
+    width: 25%;
+    height: 120px;
+    margin-top: 50%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    font-size: 0.5em;
+    animation: up 10s infinite forwards;
+  }
+  @keyframes up {
+    0%{margin-top: 50%; margin-left: 65%;}
+    12.50%{margin-top: 25%; margin-left: 65%;}
+    25%{margin-top: 10%; margin-left: 65%;}
+    37.5%{margin-top: 10%; margin-left: 32.5%;}
+    50%{margin-top: 10%; margin-left: 10%;}
+    62.5%{margin-top: 25%; margin-left: 10%;}
+    75%{margin-top: 50%; margin-left: 10%;}
+    87.5%{margin-top: 50%; margin-left: 32.5%;}
+    99%{margin-top: 50%; margin-left: 65%;}
+  }
+  .losing p, .losing b, .losing i{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+  }
+  .wow2{
+    color: white;
+  }
+  .modalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50,50,50,0.5);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .modalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.25s;
+  }
+  .modalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .close{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .close:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+  .itIsIn{
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 6%;
+    position: absolute;
+    font-size: 0.75em;
+  }
+  .line2{
+    border: none;
+    height: 8px;
+    background-color: lightgray;
+    margin-top: 17.5%;
+    width: 80%;
+  }
+  .imgCont{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-top: -3%;
+    margin-left: 15%;
+    background-color: transparent;
+  }
+  .imgCont img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color: transparent;
+  }
+  .info{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: transparent;
+  }
+  .info p:nth-child(1){
+    font-size: 75%;
+    background-color: transparent;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .info p:nth-child(2){
+    font-size: 70%;
+    margin-top: -8%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .info p:nth-child(3){
+    margin-top: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .info p:nth-child(4){
+    background-color: transparent;
+    margin-left: 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 70%;
+  }
+  .moreInfo{
+    height: 47.5%;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 87.5%;
+    position: absolute;
+    font-size: 0.75em;
+  }
+  .moreInfoPara{
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .line3{
+    display: none;
+  }
+  .back{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 1% 3%;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-top: -5%;
+    position: absolute;
+    font-size: 1em;
+    width: 95%;
+  }
+  .infoPart2{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: transparent;
+  }
+  .infoPart2 p:nth-child(1){
+    font-size: 75%;
+    background-color: transparent;
+    margin-top:20%;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .infoPart2 p:nth-child(2){
+    font-size: 70%;
+    margin-top: -10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .infoPart2 p:nth-child(3){
+    margin-top: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .infoPart2 p:nth-child(4){
+    background-color: transparent;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 75%;
+  }
+  .theBottom{
+    background-color: rgb(50,50,50);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 675px;
+    float: left;
+  }
+  .theBottom1, .theBottom2, .theBottom3, .theBottom4{
+    width: 30%;
+    height: 20%;
+    margin-top: 6%;
+    background-color: transparent;
+    margin-left: 14%;
+    float: left;
+  }
+  .theBottom1 p, .theBottom2 p, .theBottom3 p, .theBottom4 p{
+    color: white;
+    text-align: center;
+    border: inset 0.01px white;
+    background-color: transparent;
+  }
+  .theBottom2 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom3 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom4 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom p:hover{
+    border: outset 0.5px white;
+    background-color: white;
+    color: seagreen;
+  }
+  .theBottom1 a, .theBottom2 a, .theBottom3 a, .theBottom4 a{
+    text-decoration: none;
+  }
+  .line4{
+    border: none;
+    height: 3.125px;
+    background-color: white;
+    margin-top: 60%;
+    width: 90%;
+  }
+  .theBottom5{
+    background-color: transparent;
+    margin-top: 5%;
+    width: 33.5%;
+    margin-left: 61%;
+    height: 200px;
+  }
+  .connect{
+    background-color: transparent;
+    color: white;
+    text-align: right;
+  }
+  .theSocials{
+    width: 20%;
+    height: 15%;
+    background-color: transparent;
+    margin-left: 12%;
+    margin-top: 5%;
+    float: left;
+    display: inline-block;
+  }
+  .social{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .theEnd1{
+    font-size:75%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .theEnd2{
+    font-size: 75%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    margin-top: 1.5%;
+    text-align: center;
+  }
+  fieldset{
+    margin-left: 1%;
+    margin-top: -6.75%;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    border: solid transparent;
+    color: white;
+  }
+  label{
+    display: inline-block;
+    background-color: transparent;
+  }
+  #submit_bt{
+    background-color: mediumseagreen;
+    color: white;
+    box-shadow: 0px 0px 5px 3px black;
+    border: outset lightgray;
+    display: none;
+    width: 100%;
+    height: 0.01%;
+    font-size: 0.0000001em;
+  }
+  #submit_bt:hover{
+    background-color: white;
+    color: mediumseagreen;
+  }
+  .minus1 input, .minus2 input, .minus3 input{
+    width: 175%;
+    font-size: 0.00009em;
+    margin-left: -25%;
+    padding: 1px;
+  }
+  .minus4 input, .minus5 input, .minus6 input{
+    width: 175%;
+    font-size: 0.00009em;
+    margin-left: -45%;
+    padding: 1px;
+  }
+  .minus1{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 18%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus2{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 80%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus3{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 150%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus4{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 18%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus5{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 80%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus6{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 150%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+}
+/* --- tablet or medium size view 450px-800px --- */
+@media screen and (max-width: 800px) and (min-width: 600px){
+  .websiteImg{
+    border: solid mediumseagreen;
+    box-shadow: 0px 0px 10px 5px;
+    height: 500px;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    float: left;
+    animation: zooming 25s;
+  }
+  @keyframes zooming {
+    0%{transform: scale(0.25); opacity: 0.4}
+    5%{transform: scale(1); opacity: 1}
+    99%{transform: scale(1); opacity: 1}
+    100%{opacity: 0;}
+    }
+  .topImg{
+    height: 100%;
+    width: 100%;
+  }
+  .websiteText{
+    display: inline-block;
+    float: left;
+    height: 150px;
+    width: 80%;
+    margin-top: 0.5%;
+    margin-left: 10%;
+  }
+  .para1{
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: bolder;
+    color: MediumSeaGreen;
+    animation: forPara1 2s;
+    background-color: transparent;
+  }
+  @keyframes forPara1 {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(60px);}
+    100%{transform: translateY(0px);}
+  }
+  .para2{
+    margin-top: -3%;
+    font-size: 1.5em;
+    font-weight: bold;
+    animation: forPara2 2s;
+    background-color: transparent;
+  }
+  @keyframes forPara2 {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-70px);}
+    100%{transform: translateY(0px);}
+  }
+  .slideshow1{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 75px;
+    float: left;
+    overflow: hidden;
+  }
+  .slide-wrapper1{
+    width: 300%;
+    height: 100%;
+    animation: aSlideshow 25s infinite;
+  }
+  @keyframes aSlideshow{
+    0%{margin-left: 0%;}
+    15%{margin-left: 0%;}
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+    40%{margin-left: -200%;}
+    65%{margin-left: -200%;}
+  }
+  .newSlide1{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: MediumSeaGreen;
+  }
+  .s1w1{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 12.5%;
+    margin-top: 1%;
+    font-size: 150%;
+    width: 50%;
+    text-align: center;
+  }
+  .s1w2{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: -10%;
+    font-size: 100%;
+    width: 30%;
+    text-align: center;
+  }
+  .newSlide2{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: seagreen;
+  }
+  .s2w1{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 2.25%;
+    margin-top: 8%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .s2w2{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    font-size: 100%;
+    width: 70%;
+    text-align: center;
+    float: left;
+  }
+  .s2w3{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-top: 8%;
+    margin-left: -4%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .newSlide3{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: green;
+  }
+  .s3w1{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 140%;
+    width: 5.5%;
+    text-align: center;
+    float: left;
+  }
+  .s3w2{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 10%;
+    text-align: center;
+    float: left;
+  }
+  .s3w3{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 140%;
+    width: 5.5%;
+    text-align: center;
+    float: left;
+  }
+  .s3w4{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 10%;
+    text-align: center;
+    float: left;
+  }
+  .s3w5{
+    color: darkorange;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1.5%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .s3w6{
+    color: white;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: -4%;
+    margin-top: 5%;
+    font-size: 100%;
+    width: 55%;
+    text-align: center;
+    float: left;
+  }
+  .imgContainer1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    float: left;
+  }
+  .img1{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      filter: blur(0px);
+  }
+  .textbox1{
+      top: 1%;
+      left: 1%;
+      width: 30%;
+      padding: 5%;
+      background-color: lightgray;
+      opacity: 0.75;
+      border: solid black 5px;
+      box-shadow: 0px 0px 10px 3px black;
+      position: absolute;
+  }
+  .text0{
+    background-color: lightgray;
+    font-size: 1em;
+  }
+  .imgContainer2{
+      border: solid MediumSeaGreen;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      width: 80%;
+      height: 600px;
+      position: relative;
+      float: left;
+  }
+  .img2{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+  }
+  .text1{
+      color: black;
+      background-color: white;
+      text-align: center;
+      height: 250px;
+      width: 85%;
+      font-size: 2em;
+      opacity: 0.9;
+      padding: 3%;
+      position: absolute;
+      bottom: 5%;
+      left: 7.5%;
+  }
+  .productContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 1350px;
+    position: relative;
+    float: left;
+  }
+  #searchbar{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      width: 45%;
+
+      padding: 15px;
+      border-radius: 10px;
+      background-color: transparent;
+  }
+  #searchbar[type=text]{
+      -webkit-transition: 0.15s ease-in-out;
+      transition: 0.15s ease-in-out;
+  }
+  #searchbar[type=text]:focus{
+      size: 1em;
+  }
+  .hyper{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      border: seagreen solid 2px;
+
+      display: none;
+      float: left;
+      height: 50px;
+      width: 5%;
+  }
+  .opened{
+      height: 100%;
+      width: 100%;
+  }
+  .cart{
+      width: 10%;
+      height: 50px;
+      position: absolute;
+      top: 5.25%;
+      left: 90%;
+      background-color: seagreen;
+      box-shadow: 0px 0px 5px 3px seagreen;
+  }
+  .cartModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .cartModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .cartModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .theBacking2{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+  }
+  .newClose{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .newClose:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+  .cartTitle{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: 1em;
+    margin-left: 32.5%;
+    width: 35%;
+  }
+  .ticketLine{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+  }
+  .hold1{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: salmon;
+    position: absolute;
+    animation: part1 15s infinite forwards;
+  }
+  .item{
+    top: -15px;
+    background-color: mediumseagreen;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+    position: absolute;
+    opacity: 0.95;
+    font-size: 0.75em;
+  }
+  .item b, .item i{
+    background-color: transparent;
+  }
+  @keyframes part1 {
+    0{margin-top: 10%; margin-left: 10%;}
+    12.50%{margin-top: 50%; margin-left: 10%;}
+    25%{margin-top: 90%; margin-left: 10%;}
+    37.5%{margin-top: 90%; margin-left: 37.5%;}
+    50%{margin-top: 50%; margin-left: 37.5%;}
+    62.5%{margin-top: 10%; margin-left: 37.5%;}
+    75%{margin-top: 10%; margin-left: 65%;}
+    87.5%{margin-top: 10%; margin-left: 37.5%;}
+    99%{margin-top: 10%; margin-left: 10%;}
+  }
+  .hold2{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 50%;
+    background-color: salmon;
+    position: absolute;
+
+    animation: part2 15s infinite forwards;
+  }
+  @keyframes part2 {
+    0{margin-top: 50%; margin-left: 10%;}
+    12.50%{margin-top: 90%; margin-left: 10%;}
+    25%{margin-top: 90%; margin-left: 37.5%;}
+    37.5%{margin-top: 50%; margin-left: 37.5%;}
+    50%{margin-top: 10%; margin-left: 37.5%;}
+    62.5%{margin-top: 10%; margin-left: 65%;}
+    75%{margin-top: 50%; margin-left: 65%;}
+    87.5%{margin-top: 50%; margin-left: 37.5%;}
+    99%{margin-top: 50%; margin-left: 10%;}
+  }
+  .hold3{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 90%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part3 15s infinite forwards;
+  }
+  @keyframes part3 {
+    0{margin-top: 90%; margin-left: 10%;}
+    12.50%{margin-top: 90%; margin-left: 37.5%;}
+    25%{margin-top: 50%; margin-left: 37.5%;}
+    37.5%{margin-top: 10%; margin-left: 37.5%;}
+    50%{margin-top: 10%; margin-left: 65%;}
+    62.5%{margin-top: 50%; margin-left: 65%;}
+    75%{margin-top: 90%; margin-left: 65%;}
+    87.5%{margin-top: 90%; margin-left: 37.5%;}
+    99%{margin-top: 90%; margin-left: 10%;}
+  }
+  .hold4{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 90%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part4 15s infinite forwards;
+  }
+  @keyframes part4 {
+    0{margin-top: 90%; margin-left: 37.5%;}
+    12.50%{margin-top: 50%; margin-left: 37.5%;}
+    25%{margin-top: 10%; margin-left: 37.5%;}
+    37.5%{margin-top: 10%; margin-left: 65%;}
+    50%{margin-top: 50%; margin-left: 65%;}
+    62.5%{margin-top: 90%; margin-left: 65%;}
+    75%{margin-top: 90%; margin-left: 37.5%;}
+    87.5%{margin-top: 90%; margin-left: 10%;}
+    99%{margin-top: 90%; margin-left: 37.5%;}
+  }
+  .hold5{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 50%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part5 15s infinite forwards;
+  }
+  @keyframes part5 {
+    0{margin-top: 50%; margin-left: 37.5%;}
+    12.50%{margin-top: 10%; margin-left: 37.5%;}
+    25%{margin-top: 10%; margin-left: 65%;}
+    37.5%{margin-top: 50%; margin-left: 65%;}
+    50%{margin-top: 90%; margin-left: 65%;}
+    62.5%{margin-top: 90%; margin-left: 37.5%;}
+    75%{margin-top: 90%; margin-left: 10%;}
+    87.5%{margin-top: 50%; margin-left: 10%;}
+    99%{margin-top: 50%; margin-left: 37.5%;}
+  }
+  .hold6{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part6 15s infinite forwards;
+  }
+  @keyframes part6 {
+    0{margin-top: 10%; margin-left: 37.5%;}
+    12.50%{margin-top: 10%; margin-left: 65%;}
+    25%{margin-top: 50%; margin-left: 65%;}
+    37.5%{margin-top: 90%; margin-left: 65%;}
+    50%{margin-top: 90%; margin-left: 37.5%;}
+    62.5%{margin-top: 90%; margin-left: 10%;}
+    75%{margin-top: 50%; margin-left: 10%;}
+    87.5%{margin-top: 10%; margin-left: 10%;}
+    99%{margin-top: 10%; margin-left: 37.5%;}
+  }
+  #stockList{
+    opacity: 0.95;
+    width: 45%;
+    height: 150px;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 1.25em;
+    background-color: seagreen;
+
+    display: none;
+  }
+  .stocks{
+    list-style-type: none;
+    display: list-item;
+    color: black;
+    text-align: left;
+    background-color: transparent;
+  }
+  .top3{
+    color: seagreen;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .line1{
+    border: none;
+    height: 2.5px;
+    color: seagreen;
+    background-color: seagreen;
+  }
+  .crypto{
+    margin-left: 10%;
+    width: 20%;
+    height: 250px;
+    display: inline-block;
+  }
+  .top1{
+    height: 100%;
+    width: 100%;
+  }
+  .info1, .info2, .info3{
+    text-align: center;
+  }
+  .info1{
+    color: seagreen;
+    font-size: 200%;
+    font-weight: bold;
+  }
+  .info2{
+    font-size: 160%;
+  }
+  .preopen{
+    text-decoration: none;
+  }
+  .open{
+    background-color: rgb(50,50,50);
+    padding: 7.5% 10%;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    width: 100%;
+    margin-top: -5%;
+    text-align: center;
+  }
+  .open:hover{
+    color: rgb(50,50,50);
+    background-color: lightgray;
+  }
+  .bottom3{
+    color: seagreen;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+  .luckyLucky{
+    background-color: rgb(215,181,100);
+    border-radius: 50%;
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    font-size: 0.75em;
+  }
+  .luckyLucky:hover{
+    box-shadow: 0px 0px 10px 3px gold;
+    background-color: gold;
+  }
+  .luckyLucky a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(33,22,11);
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+    background-color: transparent;
+  }
+  .luckyLucky2{
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5%;
+    right: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .luckyLucky2 button{
+    text-decoration: none;
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .trueGift{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .trueGift:hover{
+    box-shadow: 0px 0px 10px 3px rgb(133,114,37);
+    background-color: rgb(133,114,37);
+  }
+  .dogeDoge{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .goingUp{
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5%;
+    left: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .goingUp a{
+    text-decoration: none;
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .trueUp{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .trueUp:hover{
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+  }
+  .upArrow{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .luckyLucky3{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    width: 5%;
+    position: fixed;
+    bottom: 1.5%;
+    right: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .luckyLucky3 img{
+    text-decoration: none;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .animatedDog{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .dogeAnimation1{
+    animation: movingDoge1 15s 1;
+  }
+  .dogeAnimation2{
+    animation: movingDoge2 15s 1;
+  }
+  .dogeAnimation3{
+    animation: movingDoge3 15s 1;
+  }
+  .dogeAnimation4{
+    animation: movingDoge4 15s 1;
+  }
+  /* This section below contains calculations for a css pathway which is 25% of a circle and which I realized after could likely have been more effectively created using javascript (will explore this capability in the future if I come back to needing a circular pathway)*/
+  @keyframes movingDoge1{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-670px) translateY(-200px);}
+    24.7222222222%{transform: translateX(-668.2548px) translateY(-200.0152px);}
+    25.00%{transform: translateX(-666.5101px) translateY(-200.0609px);}
+    25.28%{transform: translateX(-664.7664px)	translateY(-200.1370px);}
+    25.56%{transform: translateX(-663.0244px)	translateY(-200.2436px);}
+    25.83%{transform: translateX(-661.2844px)	translateY(-200.3805px);}
+    26.11%{transform: translateX(-659.5472px)	translateY(-200.5478px);}
+    26.39%{transform: translateX(-657.8131px)	translateY(-200.7454px);}
+    26.67%{transform: translateX(-656.0827px) translateY(-200.9732px);}
+    26.94%{transform: translateX(-654.3566px)	translateY(-201.2312px);}
+    27.22%{transform: translateX(-652.6352px)	translateY(-201.5192px);}
+    27.50%{transform: translateX(-650.9191px)	translateY(-201.8373px);}
+    27.78%{transform: translateX(-649.2088px)	translateY(-202.1852px);}
+    28.06%{transform: translateX(-647.5049px)	translateY(-202.5630px);}
+    28.33%{transform: translateX(-645.8078px)	translateY(-202.9704px);}
+    28.61%{transform: translateX(-644.1181px)	translateY(-203.4074px);}
+    28.89%{transform: translateX(-642.4363px) translateY(-203.8738px);}
+    29.17%{transform: translateX(-640.7628px)	translateY(-204.3695px);}
+    29.44%{transform: translateX(-639.0983px)	translateY(-204.8943px);}
+    29.72%{transform: translateX(-637.4432px)	translateY(-205.4481px);}
+    30.00%{transform: translateX(-635.7980px)	translateY(-206.0307px);}
+    30.28%{transform: translateX(-634.1632px)	translateY(-206.6420px);}
+    30.56%{transform: translateX(-632.5393px) translateY(-207.2816px);}
+    30.83%{transform: translateX(-630.9269px)	translateY(-207.9495px);}
+    31.11%{transform: translateX(-629.3263px)	translateY(-208.6455px);}
+    31.39%{transform: translateX(-627.7382px)	translateY(-209.3692px);}
+    31.67%{transform: translateX(-626.1629px)	translateY(-210.1206px);}
+    31.94%{transform: translateX(-624.6010px)	translateY(-210.8993px);}
+    32.22%{transform: translateX(-623.0528px)	translateY(-211.7052px);}
+    32.50%{transform: translateX(-621.5190px)	translateY(-212.5380px);}
+    32.78%{transform: translateX(-620.0000px)	translateY(-213.3975px);}
+    33.06%{transform: translateX(-618.4962px)	translateY(-214.2833px);}
+    33.33%{transform: translateX(-617.0081px)	translateY(-215.1952px);}
+    33.61%{transform: translateX(-615.5361px)	translateY(-216.1329px);}
+    33.89%{transform: translateX(-614.0807px)	translateY(-217.0962px);}
+    34.17%{transform: translateX(-612.6424px)	translateY(-218.0848px);}
+    34.44%{transform: translateX(-611.2215px) translateY(-219.0983px);}
+    34.72%{transform: translateX(-609.8185px)	translateY(-220.1364px);}
+    35.00%{transform: translateX(-608.4339px)	translateY(-221.1989px);}
+    35.28%{transform: translateX(-607.0680px)	translateY(-222.2854px);}
+    35.56%{transform: translateX(-605.7212px)	translateY(-223.3956px);}
+    35.83%{transform: translateX(-604.3941px)	translateY(-224.5290px);}
+    36.11%{transform: translateX(-603.0869px)	translateY(-225.6855px);}
+    36.39%{transform: translateX(-601.8002px)	translateY(-226.8646px);}
+    36.67%{transform: translateX(-600.5342px)	translateY(-228.0660px);}
+    36.94%{transform: translateX(-599.2893px)	translateY(-229.2893px);}
+    37.22%{transform: translateX(-598.0660px)	translateY(-230.5342px);}
+    37.50%{transform: translateX(-596.8646px)	translateY(-231.8002px);}
+    37.78%{transform: translateX(-595.6855px)	translateY(-233.0869px);}
+    38.06%{transform: translateX(-594.5290px)	translateY(-234.3941px);}
+    38.33%{transform: translateX(-593.3956px)	translateY(-235.7212px);}
+    38.61%{transform: translateX(-592.2854px)	translateY(-237.0680px);}
+    38.89%{transform: translateX(-591.1989px)	translateY(-238.4339px);}
+    39.17%{transform: translateX(-590.1364px)	translateY(-239.8185px);}
+    39.44%{transform: translateX(-589.0983px)	translateY(-241.2215px);}
+    39.72%{transform: translateX(-588.0848px)	translateY(-242.6424px);}
+    40.00%{transform: translateX(-587.0962px)	translateY(-244.0807px);}
+    40.28%{transform: translateX(-586.1329px)	translateY(-245.5361px);}
+    40.56%{transform: translateX(-585.1952px)	translateY(-247.0081px);}
+    40.83%{transform: translateX(-584.2833px) translateY(-248.4962px);}
+    41.11%{transform: translateX(-583.3975px)	translateY(-250.0000px);}
+    41.39%{transform: translateX(-582.5380px)	translateY(-251.5190px);}
+    41.67%{transform: translateX(-581.7052px)	translateY(-253.0528px);}
+    41.94%{transform: translateX(-580.8993px)	translateY(-254.6010px);}
+    42.22%{transform: translateX(-580.1206px)	translateY(-256.1629px);}
+    42.50%{transform: translateX(-579.3692px)	translateY(-257.7382px);}
+    42.78%{transform: translateX(-578.6455px)	translateY(-259.3263px);}
+    43.06%{transform: translateX(-577.9495px)	translateY(-260.9269px);}
+    43.33%{transform: translateX(-577.2816px)	translateY(-262.5393px);}
+    43.61%{transform: translateX(-576.6420px)	translateY(-264.1632px);}
+    43.89%{transform: translateX(-576.0307px)	translateY(-265.7980px);}
+    44.17%{transform: translateX(-575.4481px)	translateY(-267.4432px);}
+    44.44%{transform: translateX(-574.8943px)	translateY(-269.0983px);}
+    44.72%{transform: translateX(-574.3695px)	translateY(-270.7628px);}
+    45.00%{transform: translateX(-573.8738px)	translateY(-272.4363px);}
+    45.28%{transform: translateX(-573.4074px)	translateY(-274.1181px);}
+    45.56%{transform: translateX(-572.9704px)	translateY(-275.8078px);}
+    45.83%{transform: translateX(-572.5630px) translateY(-277.5049px);}
+    46.11%{transform: translateX(-572.1852px) translateY(-279.2088px);}
+    46.39%{transform: translateX(-571.8373px)	translateY(-280.9191px);}
+    46.67%{transform: translateX(-571.5192px)	translateY(-282.6352px);}
+    46.94%{transform: translateX(-571.2312px)	translateY(-284.3566px);}
+    47.22%{transform: translateX(-570.9732px)	translateY(-286.0827px);}
+    47.50%{transform: translateX(-570.7454px)	translateY(-287.8131px);}
+    47.78%{transform: translateX(-570.5478px)	translateY(-289.5472px);}
+    48.06%{transform: translateX(-570.3805px)	translateY(-291.2844px);}
+    48.33%{transform: translateX(-570.2436px)	translateY(-293.0244px);}
+    48.61%{transform: translateX(-570.1370px)	translateY(-294.7664px);}
+    48.89%{transform: translateX(-570.0609px)	translateY(-296.5101px);}
+    49.17%{transform: translateX(-570.0152px)	translateY(-298.2548px);}
+    50%{transform: translateX(-570px)	translateY(-300px);}
+  }
+  @keyframes movingDoge2{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-670px) translateY(-400px);}
+    24.7222222222%{transform: translateX(-671.7452px) 	translateY(-399.9848px);}
+    25.00%{transform: translateX(-673.4899px) translateY(-399.9391px);}
+    25.28%{transform: translateX(-675.2336px) translateY(-399.8630px);}
+    25.56%{transform: translateX(-676.9756px) translateY(-399.7564px);}
+    25.83%{transform: translateX(-678.7156px) translateY(-399.6195px);}
+    26.11%{transform: translateX(-680.4528px) translateY(-399.4522px);}
+    26.39%{transform: translateX(-682.1869px) translateY(-399.2546px);}
+    26.67%{transform: translateX(-683.9173px) translateY(-399.0268px);}
+    26.94%{transform: translateX(-685.6434px) translateY(-398.7688px);}
+    27.22%{transform: translateX(-687.3648px) translateY(-398.4808px);}
+    27.50%{transform: translateX(-689.0809px) translateY(-398.1627px);}
+    27.78%{transform: translateX(-690.7912px)	translateY(-397.8148px);}
+    28.06%{transform: translateX(-692.4951px) translateY(-397.4370px);}
+    28.33%{transform: translateX(-694.1922px) translateY(-397.0296px);}
+    28.61%{transform: translateX(-695.8819px) translateY(-396.5926px);}
+    28.89%{transform: translateX(-697.5637px) translateY(-396.1262px);}
+    29.17%{transform: translateX(-699.2372px) translateY(-395.6305px);}
+    29.44%{transform: translateX(-700.9017px) translateY(-395.1057px);}
+    29.72%{transform: translateX(-702.5568px)	translateY(-394.5519px);}
+    30.00%{transform: translateX(-704.2020px)	translateY(-393.9693px);}
+    30.28%{transform: translateX(-705.8368px)	translateY(-393.3580px);}
+    30.56%{transform: translateX(-707.4607px)	translateY(-392.7184px);}
+    30.83%{transform: translateX(-709.0731px)	translateY(-392.0505px);}
+    31.11%{transform: translateX(-710.6737px)	translateY(-391.3545px);}
+    31.39%{transform: translateX(-712.2618px)	translateY(-390.6308px);}
+    31.67%{transform: translateX(-713.8371px)	translateY(-389.8794px);}
+    31.94%{transform: translateX(-715.3990px) translateY(-389.1007px);}
+    32.22%{transform: translateX(-716.9472px)	translateY(-388.2948px);}
+    32.50%{transform: translateX(-718.4810px)	translateY(-387.4620px);}
+    32.78%{transform: translateX(-720.0000px)	translateY(-386.6025px);}
+    33.06%{transform: translateX(-721.5038px)	translateY(-385.7167px);}
+    33.33%{transform: translateX(-722.9919px)	translateY(-384.8048px);}
+    33.61%{transform: translateX(-724.4639px)	translateY(-383.8671px);}
+    33.89%{transform: translateX(-725.9193px) translateY(-382.9038px);}
+    34.17%{transform: translateX(-727.3576px) translateY(-381.9152px);}
+    34.44%{transform: translateX(-728.7785px)	translateY(-380.9017px);}
+    34.72%{transform: translateX(-730.1815px) translateY(-379.8636px);}
+    35.00%{transform: translateX(-731.5661px) translateY(-378.8011px);}
+    35.28%{transform: translateX(-732.9320px) translateY(-377.7146px);}
+    35.56%{transform: translateX(-734.2788px) translateY(-376.6044px);}
+    35.83%{transform: translateX(-735.6059px) translateY(-375.4710px);}
+    36.11%{transform: translateX(-736.9131px) translateY(-374.3145px);}
+    36.39%{transform: translateX(-738.1998px)	translateY(-373.1354px);}
+    36.67%{transform: translateX(-739.4658px)	translateY(-371.9340px);}
+    36.94%{transform: translateX(-740.7107px) translateY(-370.7107px);}
+    37.22%{transform: translateX(-741.9340px) translateY(-369.4658px);}
+    37.50%{transform: translateX(-743.1354px) translateY(-368.1998px);}
+    37.78%{transform: translateX(-744.3145px) translateY(-366.9131px);}
+    38.06%{transform: translateX(-745.4710px) translateY(-365.6059px);}
+    38.33%{transform: translateX(-746.6044px)	translateY(-364.2788px);}
+    38.61%{transform: translateX(-747.7146px)	translateY(-362.9320px);}
+    38.89%{transform: translateX(-748.8011px)	translateY(-361.5661px);}
+    39.17%{transform: translateX(-749.8636px)	translateY(-360.1815px);}
+    39.44%{transform: translateX(-750.9017px) translateY(-358.7785px);}
+    39.72%{transform: translateX(-751.9152px) translateY(-357.3576px);}
+    40.00%{transform: translateX(-752.9038px)	translateY(-355.9193px);}
+    40.28%{transform: translateX(-753.8671px)	translateY(-354.4639px);}
+    40.56%{transform: translateX(-754.8048px)	translateY(-352.9919px);}
+    40.83%{transform: translateX(-755.7167px) translateY(-351.5038px);}
+    41.11%{transform: translateX(-756.6025px) translateY(-350.0000px);}
+    41.39%{transform: translateX(-757.4620px)	translateY(-348.4810px);}
+    41.67%{transform: translateX(-758.2948px)	translateY(-346.9472px);}
+    41.94%{transform: translateX(-759.1007px) translateY(-345.3990px);}
+    42.22%{transform: translateX(-759.8794px) translateY(-343.8371px);}
+    42.50%{transform: translateX(-760.6308px) translateY(-342.2618px);}
+    42.78%{transform: translateX(-761.3545px)	translateY(-340.6737px);}
+    43.06%{transform: translateX(-762.0505px)	translateY(-339.0731px);}
+    43.33%{transform: translateX(-762.7184px) translateY(-337.4607px);}
+    43.61%{transform: translateX(-763.3580px) translateY(-335.8368px);}
+    43.89%{transform: translateX(-763.9693px) translateY(-334.2020px);}
+    44.17%{transform: translateX(-764.5519px)	translateY(-332.5568px);}
+    44.44%{transform: translateX(-765.1057px)	translateY(-330.9017px);}
+    44.72%{transform: translateX(-765.6305px)	translateY(-329.2372px);}
+    45.00%{transform: translateX(-766.1262px)	translateY(-327.5637px);}
+    45.28%{transform: translateX(-766.5926px) translateY(-325.8819px);}
+    45.56%{transform: translateX(-767.0296px)	translateY(-324.1922px);}
+    45.83%{transform: translateX(-767.4370px) translateY(-322.4951px);}
+    46.11%{transform: translateX(-767.8148px) translateY(-320.7912px);}
+    46.39%{transform: translateX(-768.1627px)	translateY(-319.0809px);}
+    46.67%{transform: translateX(-768.4808px)	translateY(-317.3648px);}
+    46.94%{transform: translateX(-768.7688px)	translateY(-315.6434px);}
+    47.22%{transform: translateX(-769.0268px)	translateY(-313.9173px);}
+    47.50%{transform: translateX(-769.2546px) translateY(-312.1869px);}
+    47.78%{transform: translateX(-769.4522px)	translateY(-310.4528px);}
+    48.06%{transform: translateX(-769.6195px) translateY(-308.7156px);}
+    48.33%{transform: translateX(-769.7564px)	translateY(-306.9756px);}
+    48.61%{transform: translateX(-769.8630px)	translateY(-305.2336px);}
+    48.89%{transform: translateX(-769.9391px)	translateY(-303.4899px);}
+    49.17%{transform: translateX(-769.9848px) translateY(-301.7452px);}
+    50%{transform: translateX(-770px)	translateY(-300px);}
+  }
+  @keyframes movingDoge3{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-770px) translateY(-300px);}
+    24.7222222222%{transform: translateX(-769.9848px) translateY(-298.2548px);}
+    25.00%{transform: translateX(-769.9391px) translateY(-296.5101px);}
+    25.28%{transform: translateX(-769.8630px) translateY(-294.7664px);}
+    25.56%{transform: translateX(-769.7564px)	translateY(-293.0244px);}
+    25.83%{transform: translateX(-769.6195px) translateY(-291.2844px);}
+    26.11%{transform: translateX(-769.4522px) translateY(-289.5472px);}
+    26.39%{transform: translateX(-769.2546px)	translateY(-287.8131px);}
+    26.67%{transform: translateX(-769.0268px) translateY(-286.0827px);}
+    26.94%{transform: translateX(-768.7688px) translateY(-284.3566px);}
+    27.22%{transform: translateX(-768.4808px) translateY(-282.6352px);}
+    27.50%{transform: translateX(-768.1627px)	translateY(-280.9191px);}
+    27.78%{transform: translateX(-767.8148px) translateY(-279.2088px);}
+    28.06%{transform: translateX(-767.4370px)	translateY(-277.5049px);}
+    28.33%{transform: translateX(-767.0296px)	translateY(-275.8078px);}
+    28.61%{transform: translateX(-766.5926px) translateY(-274.1181px);}
+    28.89%{transform: translateX(-766.1262px) translateY(-272.4363px);}
+    29.17%{transform: translateX(-765.6305px) translateY(-270.7628px);}
+    29.44%{transform: translateX(-765.1057px) translateY(-269.0983px);}
+    29.72%{transform: translateX(-764.5519px) translateY(-267.4432px);}
+    30.00%{transform: translateX(-763.9693px)	translateY(-265.7980px);}
+    30.28%{transform: translateX(-763.3580px)	translateY(-264.1632px);}
+    30.56%{transform: translateX(-762.7184px)	translateY(-262.5393px);}
+    30.83%{transform: translateX(-762.0505px)	translateY(-260.9269px);}
+    31.11%{transform: translateX(-761.3545px)	translateY(-259.3263px);}
+    31.39%{transform: translateX(-760.6308px)	translateY(-257.7382px);}
+    31.67%{transform: translateX(-759.8794px)	translateY(-256.1629px);}
+    31.94%{transform: translateX(-759.1007px)	translateY(-254.6010px);}
+    32.22%{transform: translateX(-758.2948px)	translateY(-253.0528px);}
+    32.50%{transform: translateX(-757.4620px)	translateY(-251.5190px);}
+    32.78%{transform: translateX(-756.6025px)	translateY(-250.0000px);}
+    33.06%{transform: translateX(-755.7167px) translateY(-248.4962px);}
+    33.33%{transform: translateX(-754.8048px)	translateY(-247.0081px);}
+    33.61%{transform: translateX(-753.8671px)	translateY(-245.5361px);}
+    33.89%{transform: translateX(-752.9038px) translateY(-244.0807px);}
+    34.17%{transform: translateX(-751.9152px)	translateY(-242.6424px);}
+    34.44%{transform: translateX(-750.9017px)	translateY(-241.2215px);}
+    34.72%{transform: translateX(-749.8636px) translateY(-239.8185px);}
+    35.00%{transform: translateX(-748.8011px) translateY(-238.4339px);}
+    35.28%{transform: translateX(-747.7146px)	translateY(-237.0680px);}
+    35.56%{transform: translateX(-746.6044px)	translateY(-235.7212px);}
+    35.83%{transform: translateX(-745.4710px) translateY(-234.3941px);}
+    36.11%{transform: translateX(-744.3145px)	translateY(-233.0869px);}
+    36.39%{transform: translateX(-743.1354px) translateY(-231.8002px);}
+    36.67%{transform: translateX(-741.9340px) translateY(-230.5342px);}
+    36.94%{transform: translateX(-740.7107px) translateY(-229.2893px);}
+    37.22%{transform: translateX(-739.4658px)	translateY(-228.0660px);}
+    37.50%{transform: translateX(-738.1998px)	translateY(-226.8646px);}
+    37.78%{transform: translateX(-736.9131px)	translateY(-225.6855px);}
+    38.06%{transform: translateX(-735.6059px) translateY(-224.5290px);}
+    38.33%{transform: translateX(-734.2788px)	translateY(-223.3956px);}
+    38.61%{transform: translateX(-732.9320px) translateY(-222.2854px);}
+    38.89%{transform: translateX(-731.5661px)	translateY(-221.1989px);}
+    39.17%{transform: translateX(-730.1815px)	translateY(-220.1364px);}
+    39.44%{transform: translateX(-728.7785px)	translateY(-219.0983px);}
+    39.72%{transform: translateX(-727.3576px)	translateY(-218.0848px);}
+    40.00%{transform: translateX(-725.9193px)	translateY(-217.0962px);}
+    40.28%{transform: translateX(-724.4639px)	translateY(-216.1329px);}
+    40.56%{transform: translateX(-722.9919px)	translateY(-215.1952px);}
+    40.83%{transform: translateX(-721.5038px)	translateY(-214.2833px);}
+    41.11%{transform: translateX(-720.0000px)	translateY(-213.3975px);}
+    41.39%{transform: translateX(-718.4810px)	translateY(-212.5380px);}
+    41.67%{transform: translateX(-716.9472px)	translateY(-211.7052px);}
+    41.94%{transform: translateX(-715.3990px)	translateY(-210.8993px);}
+    42.22%{transform: translateX(-713.8371px)	translateY(-210.1206px);}
+    42.50%{transform: translateX(-712.2618px)	translateY(-209.3692px);}
+    42.78%{transform: translateX(-710.6737px)	translateY(-208.6455px);}
+    43.06%{transform: translateX(-709.0731px)	translateY(-207.9495px);}
+    43.33%{transform: translateX(-707.4607px)	translateY(-207.2816px);}
+    43.61%{transform: translateX(-705.8368px)	translateY(-206.6420px);}
+    43.89%{transform: translateX(-704.2020px)	translateY(-206.0307px);}
+    44.17%{transform: translateX(-702.5568px)	translateY(-205.4481px);}
+    44.44%{transform: translateX(-700.9017px)	translateY(-204.8943px);}
+    44.72%{transform: translateX(-699.2372px)	translateY(-204.3695px);}
+    45.00%{transform: translateX(-697.5637px)	translateY(-203.8738px);}
+    45.28%{transform: translateX(-695.8819px)	translateY(-203.4074px);}
+    45.56%{transform: translateX(-694.1922px)	translateY(-202.9704px);}
+    45.83%{transform: translateX(-692.4951px)	translateY(-202.5630px);}
+    46.11%{transform: translateX(-690.7912px)	translateY(-202.1852px);}
+    46.39%{transform: translateX(-689.0809px)	translateY(-201.8373px);}
+    46.67%{transform: translateX(-687.3648px)	translateY(-201.5192px);}
+    46.94%{transform: translateX(-685.6434px)	translateY(-201.2312px);}
+    47.22%{transform: translateX(-683.9173px)	translateY(-200.9732px);}
+    47.50%{transform: translateX(-682.1869px)	translateY(-200.7454px);}
+    47.78%{transform: translateX(-680.4528px)	translateY(-200.5478px);}
+    48.06%{transform: translateX(-678.7156px)	translateY(-200.3805px);}
+    48.33%{transform: translateX(-676.9756px)	translateY(-200.2436px);}
+    48.61%{transform: translateX(-675.2336px)	translateY(-200.1370px);}
+    48.89%{transform: translateX(-673.4899px)	translateY(-200.0609px);}
+    49.17%{transform: translateX(-671.7452px)	translateY(-200.0152px);}
+    50%{transform: translateX(-670px)	translateY(-200px);}
+  }
+  @keyframes movingDoge4{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-570px) translateY(-300px);}
+    24.7222222222%{transform: translateX(-570.0152px) translateY(-301.7452px);}
+    25.00%{transform: translateX(-570.0609px) translateY(-303.4899px);}
+    25.28%{transform: translateX(-570.1370px) translateY(-305.2336px);}
+    25.56%{transform: translateX(-570.2436px) translateY(-306.9756px);}
+    25.83%{transform: translateX(-570.3805px) translateY(-308.7156px);}
+    26.11%{transform: translateX(-570.3805px) translateY(-308.7156px);}
+    26.39%{transform: translateX(-570.5478px) translateY(-310.4528px);}
+    26.67%{transform: translateX(-570.7454px) translateY(-312.1869px);}
+    26.94%{transform: translateX(-570.9732px) translateY(-313.9173px);}
+    27.22%{transform: translateX(-571.2312px) translateY(-315.6434px);}
+    27.50%{transform: translateX(-571.5192px) translateY(-317.3648px);}
+    27.78%{transform: translateX(-571.8373px) translateY(-319.0809px);}
+    28.06%{transform: translateX(-572.1852px) translateY(-320.7912px);}
+    28.33%{transform: translateX(-572.5630px) translateY(-322.4951px);}
+    28.61%{transform: translateX(-572.9704px) translateY(-324.1922px);}
+    28.89%{transform: translateX(-573.4074px) translateY(-325.8819px);}
+    29.17%{transform: translateX(-573.8738px) translateY(-327.5637px);}
+    29.44%{transform: translateX(-574.3695px) translateY(-329.2372px);}
+    29.72%{transform: translateX(-574.8943px) translateY(-330.9017px);}
+    30.00%{transform: translateX(-575.4481px) translateY(-332.5568px);}
+    30.28%{transform: translateX(-576.0307px) translateY(-334.2020px);}
+    30.56%{transform: translateX(-576.6420px) translateY(-335.8368px);}
+    30.83%{transform: translateX(-577.2816px) translateY(-337.4607px);}
+    31.11%{transform: translateX(-577.9495px) translateY(-339.0731px);}
+    31.39%{transform: translateX(-578.6455px) translateY(-340.6737px);}
+    31.67%{transform: translateX(-579.3692px) translateY(-342.2618px);}
+    31.94%{transform: translateX(-580.1206px) translateY(-343.8371px);}
+    32.22%{transform: translateX(-580.8993px) translateY(-345.3990px);}
+    32.50%{transform: translateX(-581.7052px) translateY(-346.9472px);}
+    32.78%{transform: translateX(-582.5380px) translateY(-348.4810px);}
+    33.06%{transform: translateX(-583.3975px) translateY(-350.0000px);}
+    33.33%{transform: translateX(-584.2833px) translateY(-351.5038px);}
+    33.61%{transform: translateX(-585.1952px) translateY(-352.9919px);}
+    33.89%{transform: translateX(-586.1329px) translateY(-354.4639px);}
+    34.17%{transform: translateX(-587.0962px) translateY(-355.9193px);}
+    34.44%{transform: translateX(-588.0848px) translateY(-357.3576px);}
+    34.72%{transform: translateX(-589.0983px) translateY(-358.7785px);}
+    35.00%{transform: translateX(-590.1364px) translateY(-360.1815px);}
+    35.28%{transform: translateX(-591.1989px) translateY(-361.5661px);}
+    35.56%{transform: translateX(-592.2854px) translateY(-362.9320px);}
+    35.83%{transform: translateX(-593.3956px) translateY(-364.2788px);}
+    36.11%{transform: translateX(-594.5290px) translateY(-365.6059px);}
+    36.39%{transform: translateX(-595.6855px) translateY(-366.9131px);}
+    36.67%{transform: translateX(-596.8646px) translateY(-368.1998px);}
+    36.94%{transform: translateX(-598.0660px) translateY(-369.4658px);}
+    37.22%{transform: translateX(-599.2893px) translateY(-370.7107px);}
+    37.50%{transform: translateX(-600.5342px) translateY(-371.9340px);}
+    37.78%{transform: translateX(-601.8002px) translateY(-373.1354px);}
+    38.06%{transform: translateX(-603.0869px) translateY(-374.3145px);}
+    38.33%{transform: translateX(-604.3941px) translateY(-375.4710px);}
+    38.61%{transform: translateX(-605.7212px) translateY(-376.6044px);}
+    38.89%{transform: translateX(-607.0680px) translateY(-377.7146px);}
+    39.17%{transform: translateX(-608.4339px) translateY(-378.8011px);}
+    39.44%{transform: translateX(-609.8185px) translateY(-379.8636px);}
+    39.72%{transform: translateX(-611.2215px) translateY(-380.9017px);}
+    40.00%{transform: translateX(-612.6424px) translateY(-381.9152px);}
+    40.28%{transform: translateX(-614.0807px) translateY(-382.9038px);}
+    40.56%{transform: translateX(-615.5361px) translateY(-383.8671px);}
+    40.83%{transform: translateX(-617.0081px) translateY(-384.8048px);}
+    41.11%{transform: translateX(-618.4962px) translateY(-385.7167px);}
+    41.39%{transform: translateX(-620.0000px) translateY(-386.6025px);}
+    41.67%{transform: translateX(-621.5190px) translateY(-387.4620px);}
+    41.94%{transform: translateX(-623.0528px) translateY(-388.2948px);}
+    42.22%{transform: translateX(-624.6010px) translateY(-389.1007px);}
+    42.50%{transform: translateX(-626.1629px) translateY(-389.8794px);}
+    42.78%{transform: translateX(-627.7382px) translateY(-390.6308px);}
+    43.06%{transform: translateX(-629.3263px) translateY(-391.3545px);}
+    43.33%{transform: translateX(-630.9269px) translateY(-392.0505px);}
+    43.61%{transform: translateX(-632.5393px) translateY(-392.7184px);}
+    43.89%{transform: translateX(-634.1632px) translateY(-393.3580px);}
+    44.17%{transform: translateX(-635.7980px) translateY(-393.9693px);}
+    44.44%{transform: translateX(-637.4432px) translateY(-394.5519px);}
+    44.72%{transform: translateX(-639.0983px) translateY(-395.1057px);}
+    45.00%{transform: translateX(-640.7628px) translateY(-395.6305px);}
+    45.28%{transform: translateX(-642.4363px) translateY(-396.1262px);}
+    45.56%{transform: translateX(-644.1181px) translateY(-396.5926px);}
+    45.83%{transform: translateX(-645.8078px) translateY(-397.0296px);}
+    46.11%{transform: translateX(-647.5049px) translateY(-397.4370px);}
+    46.39%{transform: translateX(-649.2088px) translateY(-397.8148px);}
+    46.67%{transform: translateX(-650.9191px) translateY(-398.1627px);}
+    46.94%{transform: translateX(-652.6352px) translateY(-398.4808px);}
+    47.22%{transform: translateX(-654.3566px) translateY(-398.7688px);}
+    47.50%{transform: translateX(-656.0827px) translateY(-399.0268px);}
+    47.78%{transform: translateX(-657.8131px) translateY(-399.2546px);}
+    48.06%{transform: translateX(-659.5472px) translateY(-399.4522px);}
+    48.33%{transform: translateX(-661.2844px) translateY(-399.6195px);}
+    48.61%{transform: translateX(-663.0244px) translateY(-399.7564px);}
+    48.89%{transform: translateX(-664.7664px) translateY(-399.8630px);}
+    49.17%{transform: translateX(-666.5101px) translateY(-399.9391px);}
+    50%{transform: translateX(-670px) translateY(-400px);}
+  }
+  /* This section above contains calculations for a css pathway which is 25% of a circle and which I realized after could likely have been more effectively created using javascript (will explore this capability in the future if I come back to needing a circular pathway)*/
+  .purchaseTicket{
+    background-color: mediumseagreen;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    width: 5%;
+    position: fixed;
+    bottom: 10%;
+    right: 0.5%;
+    display: none;
+  }
+  .purchaseTicket:hover{
+    box-shadow: 0px 0px 10px 3px mediumseagreen;
+  }
+  .purchaseTicket a{
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .purchaseTicket img{
+    text-decoration: none;
+    padding: 10%;
+    margin-top: 0%;
+    background-color: transparent;
+  }
+  .nonanimatedTicket{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .newModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .newModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .newModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .aSpin{
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  .line0{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: -1%;
+    width: 80%;
+  }
+  .newLine{
+    border: none;
+    height: 1px;
+    background-color: red;
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+  }
+  .slideshow0{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 6.25%;
+    width: 25%;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .spinWrapper1{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg1{
+    width: 100%;
+    height: 12.5%;
+    margin-bottom: -3.75%;
+    margin-top: 3.75%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge1{
+    width: 100%;
+    margin-top: 3.75%;
+    height: 10%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spinWrapper2{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg2{
+    width: 100%;
+    height: 12.5%;
+    margin-bottom: -3.75%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge2{
+    width: 100%;
+    margin-top: 3.75%;
+    height: 10%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spinWrapper3{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg3{
+    width: 100%;
+    height: 12.5%;
+    margin-bottom: -7%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge3{
+    width: 100%;
+    margin-top: 3.75%;
+    height: 10%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .animation1{
+    animation: aNewSlideshow 7.5s infinite;
+    animation-direction: alternate;
+  }
+  .animation2{
+    animation: aNewSlideshow 10s infinite;
+    animation-direction: alternate;
+  }
+  .animation3{
+    animation: aNewSlideshow 12.5s infinite;
+    animation-direction: alternate;
+  }
+  @keyframes aNewSlideshow{
+    0%{margin-top: 0%;}
+    10%{margin-top: -100%;}
+    30%{margin-top: -100%;}
+    40%{margin-top: -200%;}
+    60%{margin-top: -200%;}
+    70%{margin-top: -300%;}
+    90%{margin-top: -300%;}
+    100%{margin-top: -300%;}
+  }
+  .to-start{
+    background-color: red;
+    color: gold;
+    margin-left: 6.25%;
+    width: 25%;
+    margin-top: 10.5%;
+    display: inline-block;
+    float: left;
+  }
+  .to-select{
+    background-color: gold;
+    color: red;
+    margin-left: 37.5%;
+    width: 25%;
+    margin-top: 9%;
+    display: inline-block;
+    float: left;
+  }
+  .containsGift{
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .gift{
+    background-color: black;
+    color: palegreen;
+    margin-left: 37.5%;
+    margin-top: 60%;
+    width: 25%;
+    display: none;
+    position: absolute;
+  }
+  .gift:hover{
+    background-color: palegreen;
+    color: black;
+  }
+  .ticketModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .ticketModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .ticketModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .theBacking{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+  }
+  .ticketTitle{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: 1em;
+    margin-left: 33.5%;
+    width: 33%;
+  }
+  .winning{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 120px;
+    margin-top: 10%;
+    background-color: salmon;
+    font-size: 0.75em;
+    position: absolute;
+    animation: down 10s infinite forwards;
+  }
+  @keyframes down {
+    0{margin-top: 10%; margin-left: 10%;}
+    12.50%{margin-top: 25%; margin-left: 10%;}
+    25%{margin-top: 50%; margin-left: 10%;}
+    37.5%{margin-top: 50%; margin-left: 32.5%;}
+    50%{margin-top: 50%; margin-left: 65%;}
+    62.5%{margin-top: 25%; margin-left: 65%;}
+    75%{margin-top: 10%; margin-left: 65%;}
+    87.5%{margin-top: 10%; margin-left: 32.5%;}
+    99%{margin-top: 10%; margin-left: 10%;}
+  }
+  .wow1{
+    color: white;
+  }
+  .winning p, .winning b, .winning i{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+  }
+  .losing{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 65%;
+    width: 25%;
+    height: 120px;
+    margin-top: 50%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    font-size: 0.75em;
+    animation: up 10s infinite forwards;
+  }
+  @keyframes up {
+    0%{margin-top: 50%; margin-left: 65%;}
+    12.50%{margin-top: 25%; margin-left: 65%;}
+    25%{margin-top: 10%; margin-left: 65%;}
+    37.5%{margin-top: 10%; margin-left: 32.5%;}
+    50%{margin-top: 10%; margin-left: 10%;}
+    62.5%{margin-top: 25%; margin-left: 10%;}
+    75%{margin-top: 50%; margin-left: 10%;}
+    87.5%{margin-top: 50%; margin-left: 32.5%;}
+    99%{margin-top: 50%; margin-left: 65%;}
+  }
+  .losing p, .losing b, .losing i{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+  }
+  .wow2{
+    color: white;
+  }
+  .modalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50,50,50,0.5);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .modalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.25s;
+  }
+  .modalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .close{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .close:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+  .itIsIn{
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 6%;
+    position: absolute;
+  }
+  .line2{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: 12.5%;
+    width: 80%;
+  }
+  .imgCont{
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin-top: -3%;
+    margin-left: 15%;
+    background-color: transparent;
+  }
+  .imgCont img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color: transparent;
+  }
+  .info{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: transparent;
+  }
+  .info p:nth-child(1){
+    font-size: 150%;
+    background-color: transparent;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .info p:nth-child(2){
+    font-size: 70%;
+    margin-top: -8%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .info p:nth-child(3){
+    margin-top: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .info p:nth-child(4){
+    background-color: transparent;
+    margin-left: 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 0.875em;
+  }
+  .moreInfo{
+    height: 35%;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 50%;
+    position: absolute;
+  }
+  .moreInfoPara{
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .line3{
+    border: none;
+    height: 3.125px;
+    background-color: white;
+    margin-top: -1em;
+    width: 80%;
+  }
+  .back{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 1% 3%;
+    display: inline-block;
+    margin-left: 18%;
+    margin-top: 0%;
+  }
+  .infoPart2{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: transparent;
+  }
+  .infoPart2 p:nth-child(1){
+    font-size: 150%;
+    background-color: transparent;
+    margin-top:20%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .infoPart2 p:nth-child(2){
+    font-size: 70%;
+    margin-top: -10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .infoPart2 p:nth-child(3){
+    margin-top: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .infoPart2 p:nth-child(4){
+    background-color: transparent;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .theBottom{
+    background-color: rgb(50,50,50);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 675px;
+    float: left;
+  }
+  .theBottom1, .theBottom2, .theBottom3, .theBottom4{
+    width: 15%;
+    height: 20%;
+    margin-top: 6%;
+    background-color: transparent;
+    margin-left: 14%;
+    float: left;
+  }
+  .theBottom1 p, .theBottom2 p, .theBottom3 p, .theBottom4 p{
+    color: white;
+    text-align: center;
+    border: inset 0.01px white;
+    background-color: transparent;
+  }
+  .theBottom2 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom3 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom4 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom p:hover{
+    border: outset 0.5px white;
+    background-color: white;
+    color: seagreen;
+  }
+  .theBottom1 a, .theBottom2 a, .theBottom3 a, .theBottom4 a{
+    text-decoration: none;
+  }
+  .line4{
+    border: none;
+    height: 3.125px;
+    background-color: white;
+    margin-top: 40%;
+    width: 90%;
+  }
+  .theBottom5{
+    background-color: transparent;
+    margin-top: 5%;
+    width: 33.5%;
+    margin-left: 61%;
+    height: 200px;
+  }
+  .connect{
+    background-color: transparent;
+    color: white;
+    text-align: right;
+  }
+  .theSocials{
+    width: 8%;
+    height: 15%;
+    background-color: transparent;
+    margin-left: 12%;
+    float: left;
+    display: inline-block;
+  }
+  .social{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .theEnd1{
+    font-size:75%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .theEnd2{
+    font-size: 75%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    margin-top: 1.5%;
+    text-align: center;
+  }
+  fieldset{
+    margin-left: 7.5%;
+    margin-top: -2%;
+    background-color: transparent;
+    position: absolute;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+    border: solid transparent;
+    color: white;
+  }
+  label{
+    display: inline-block;
+    background-color: transparent;
+  }
+  #submit_bt{
+    background-color: mediumseagreen;
+    color: white;
+    box-shadow: 0px 0px 5px 3px black;
+    border: outset lightgray;
+    display: none;
+    width: 100%;
+    height: 1%;
+    font-size: 0.5em;
+  }
+  #submit_bt:hover{
+    background-color: white;
+    color: mediumseagreen;
+  }
+  .minus1 input, .minus2 input, .minus3 input, .minus4 input, .minus5 input, .minus6 input{
+    width: 100%;
+    font-size: 0.6em;
+  }
+  .minus1{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus2{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 50%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus3{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 90%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus4{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 10%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus5{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 50%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus6{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 90%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+}
+/* --- laptop and desktop large size view 1350px+ --- */
+@media screen and (min-width: 1350px){
+  .newLine{
+    display: none;
+  }
+  .websiteImg{
+    border: solid MediumSeaGreen;
+    box-shadow: 0px 0px 10px 5px;
+    height: 112.5px;
+    width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    float: left;
+    animation: zooming 25s;
+  }
+  @keyframes zooming {
+    0%{transform: scale(0.25); opacity: 0.4}
+    5%{transform: scale(1); opacity: 1}
+    99%{transform: scale(1); opacity: 1}
+    100%{opacity: 0;}
+    }
+  .topImg{
+    height: 100%;
+    width: 100%;
+  }
+  .websiteText{
+    display: inline-block;
+    float: left;
+    height: 150px;
+    width: 55%;
+    margin-top: 0.5%;
+  }
+  .para1{
+    margin-top: 5%;
+    font-size: 2em;
+    font-weight: bolder;
+    color: MediumSeaGreen;
+    animation: forPara1 2s;
+    background-color: transparent;
+  }
+  @keyframes forPara1 {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(60px);}
+    100%{transform: translateY(0px);}
+  }
+  .para2{
+    margin-top: -3%;
+    font-size: 1.5em;
+    font-weight: bold;
+    animation: forPara2 2s;
+    background-color: transparent;
+  }
+  @keyframes forPara2 {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-70px);}
+    100%{transform: translateY(0px);}
+  }
+  .slideshow1{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+  }
+  .slide-wrapper1{
+    width: 300%;
+    height: 100%;
+    animation: aSlideshow 25s infinite;
+  }
+  @keyframes aSlideshow{
+    0%{margin-left: 0%;}
+    15%{margin-left: 0%;}
+    20%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+    40%{margin-left: -200%;}
+    65%{margin-left: -200%;}
+  }
+  .newSlide1{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: MediumSeaGreen;
+  }
+  .s1w1{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 12.5%;
+    margin-top: 1%;
+    font-size: 150%;
+    width: 50%;
+    text-align: center;
+  }
+  .s1w2{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: -10%;
+    font-size: 100%;
+    width: 30%;
+    text-align: center;
+  }
+  .newSlide2{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: seagreen;
+  }
+  .s2w1{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 2.25%;
+    font-size: 100%;
+    width: 11.5%;
+    text-align: center;
+    float: left;
+  }
+  .s2w2{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    font-size: 100%;
+    width: 70%;
+    text-align: center;
+    float: left;
+  }
+  .s2w3{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 0%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .newSlide3{
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    background-color: green;
+  }
+  .s3w1{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 140%;
+    width: 5.5%;
+    text-align: center;
+    float: left;
+  }
+  .s3w2{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 10%;
+    text-align: center;
+    float: left;
+  }
+  .s3w3{
+    color: blue;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 140%;
+    width: 5.5%;
+    text-align: center;
+    float: left;
+  }
+  .s3w4{
+    color: darkorange;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    width: 10%;
+    text-align: center;
+    float: left;
+  }
+  .s3w5{
+    color: darkorange;
+    display: inline-block;
+    font-weight: bold;
+    background-color: transparent;
+
+    margin-left: 0%;
+    margin-top: 1.5%;
+    font-size: 100%;
+    width: 14%;
+    text-align: center;
+    float: left;
+  }
+  .s3w6{
+    color: white;
+    display: inline-block;
+    background-color: transparent;
+
+    margin-left: -6.45%;
+    margin-top: 1.45%;
+    font-size: 100%;
+    width: 55%;
+    text-align: center;
+    float: left;
+  }
+  .imgContainer1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 600px;
+    position: relative;
+    float: left;
+  }
+  .img1{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      filter: blur(0px);
+  }
+  .textbox1{
+      top: 1%;
+      left: 1%;
+      width: 30%;
+      padding: 5%;
+      background-color: lightgray;
+      opacity: 0.75;
+      border: solid black 5px;
+      box-shadow: 0px 0px 10px 3px black;
+      position: absolute;
+  }
+  .text0{
+    background-color: lightgray;
+    font-size: 1em;
+  }
+  .imgContainer2{
+      border: solid MediumSeaGreen;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      width: 80%;
+      height: 600px;
+      position: relative;
+      float: left;
+  }
+  .img2{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+  }
+  .text1{
+      color: black;
+      background-color: white;
+      text-align: center;
+      height: 210px;
+      width: 80%;
+      font-size: 2em;
+      opacity: 0.9;
+      padding: 3%;
+      position: absolute;
+      bottom: 1%;
+      left: 10%;
+  }
+  .productContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 1350px;
+    position: relative;
+    float: left;
+  }
+  #searchbar{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      width: 22.5%;
+
+      padding: 15px;
+      border-radius: 10px;
+      background-color: transparent;
+  }
+  #searchbar[type=text]{
+      -webkit-transition: 0.15s ease-in-out;
+      transition: 0.15s ease-in-out;
+  }
+  #searchbar[type=text]:focus{
+      size: 1em;
+  }
+  .hyper{
+      margin-left: 0%;
+      margin-top: 2.5%;
+      position: relative;
+      border: seagreen solid 2px;
+
+      display: none;
+      float: left;
+      height: 50px;
+      width: 2.5%;
+  }
+  .opened{
+      height: 100%;
+      width: 100%;
+  }
+  .cart{
+      width: 5%;
+      height: 50px;
+      position: absolute;
+      top: 6.5%;
+      left: 90%;
+      background-color: seagreen;
+      box-shadow: 0px 0px 5px 3px seagreen;
+  }
+  .cartModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .cartModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.5s;
+  }
+  .cartModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .theBacking2{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+  }
+  .newClose{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .newClose:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+  .cartTitle{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: 2em;
+    margin-left: 32.5%;
+    width: 35%;
+  }
+  .ticketLine{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+  }
+  .hold1{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: salmon;
+    position: absolute;
+    animation: part1 15s infinite forwards;
+  }
+  .item{
+    top: -15px;
+    background-color: mediumseagreen;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+    position: absolute;
+    opacity: 0.95;
+  }
+  .item b, .item i{
+    background-color: transparent;
+  }
+  @keyframes part1 {
+    0{margin-top: 10%; margin-left: 10%;}
+    12.50%{margin-top: 30%; margin-left: 10%;}
+    25%{margin-top: 50%; margin-left: 10%;}
+    37.5%{margin-top: 50%; margin-left: 37.5%;}
+    50%{margin-top: 30%; margin-left: 37.5%;}
+    62.5%{margin-top: 10%; margin-left: 37.5%;}
+    75%{margin-top: 10%; margin-left: 65%;}
+    87.5%{margin-top: 10%; margin-left: 37.5%;}
+    99%{margin-top: 10%; margin-left: 10%;}
+  }
+  .hold2{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 30%;
+    background-color: salmon;
+    position: absolute;
+
+    animation: part2 15s infinite forwards;
+  }
+  @keyframes part2 {
+    0{margin-top: 30%; margin-left: 10%;}
+    12.50%{margin-top: 50%; margin-left: 10%;}
+    25%{margin-top: 50%; margin-left: 37.5%;}
+    37.5%{margin-top: 30%; margin-left: 37.5%;}
+    50%{margin-top: 10%; margin-left: 37.5%;}
+    62.5%{margin-top: 10%; margin-left: 65%;}
+    75%{margin-top: 30%; margin-left: 65%;}
+    87.5%{margin-top: 30%; margin-left: 37.5%;}
+    99%{margin-top: 30%; margin-left: 10%;}
+  }
+  .hold3{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 50%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part3 15s infinite forwards;
+  }
+  @keyframes part3 {
+    0{margin-top: 50%; margin-left: 10%;}
+    12.50%{margin-top: 50%; margin-left: 37.5%;}
+    25%{margin-top: 30%; margin-left: 37.5%;}
+    37.5%{margin-top: 10%; margin-left: 37.5%;}
+    50%{margin-top: 10%; margin-left: 65%;}
+    62.5%{margin-top: 30%; margin-left: 65%;}
+    75%{margin-top: 50%; margin-left: 65%;}
+    87.5%{margin-top: 50%; margin-left: 37.5%;}
+    99%{margin-top: 50%; margin-left: 10%;}
+  }
+  .hold4{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 50%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part4 15s infinite forwards;
+  }
+  @keyframes part4 {
+    0{margin-top: 50%; margin-left: 37.5%;}
+    12.50%{margin-top: 30%; margin-left: 37.5%;}
+    25%{margin-top: 10%; margin-left: 37.5%;}
+    37.5%{margin-top: 10%; margin-left: 65%;}
+    50%{margin-top: 30%; margin-left: 65%;}
+    62.5%{margin-top: 50%; margin-left: 65%;}
+    75%{margin-top: 50%; margin-left: 37.5%;}
+    87.5%{margin-top: 50%; margin-left: 10%;}
+    99%{margin-top: 50%; margin-left: 37.5%;}
+  }
+  .hold5{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 30%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part5 15s infinite forwards;
+  }
+  @keyframes part5 {
+    0{margin-top: 30%; margin-left: 37.5%;}
+    12.50%{margin-top: 10%; margin-left: 37.5%;}
+    25%{margin-top: 10%; margin-left: 65%;}
+    37.5%{margin-top: 30%; margin-left: 65%;}
+    50%{margin-top: 50%; margin-left: 65%;}
+    62.5%{margin-top: 50%; margin-left: 37.5%;}
+    75%{margin-top: 50%; margin-left: 10%;}
+    87.5%{margin-top: 30%; margin-left: 10%;}
+    99%{margin-top: 30%; margin-left: 37.5%;}
+  }
+  .hold6{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 37.5%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: part6 15s infinite forwards;
+  }
+  @keyframes part6 {
+    0{margin-top: 10%; margin-left: 37.5%;}
+    12.50%{margin-top: 10%; margin-left: 65%;}
+    25%{margin-top: 30%; margin-left: 65%;}
+    37.5%{margin-top: 50%; margin-left: 65%;}
+    50%{margin-top: 50%; margin-left: 37.5%;}
+    62.5%{margin-top: 50%; margin-left: 10%;}
+    75%{margin-top: 30%; margin-left: 10%;}
+    87.5%{margin-top: 10%; margin-left: 10%;}
+    99%{margin-top: 10%; margin-left: 37.5%;}
+  }
+  #stockList{
+    opacity: 0.95;
+    width: 25%;
+    height: 150px;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 1.25em;
+    background-color: seagreen;
+
+    display: none;
+  }
+  .stocks{
+    list-style-type: none;
+    display: list-item;
+    color: black;
+    text-align: left;
+    background-color: transparent;
+  }
+  .top3{
+    color: seagreen;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .line1{
+    border: none;
+    height: 2.5px;
+    color: seagreen;
+    background-color: seagreen;
+  }
+  .crypto{
+    margin-left: 10%;
+    width: 20%;
+    height: 250px;
+    display: inline-block;
+  }
+  .top1{
+    height: 100%;
+    width: 100%;
+  }
+  .info1, .info2, .info3{
+    text-align: center;
+  }
+  .info1{
+    color: seagreen;
+    font-size: 200%;
+    font-weight: bold;
+  }
+  .info2{
+    font-size: 160%;
+  }
+  .preopen{
+    text-decoration: none;
+  }
+  .open{
+    background-color: rgb(50,50,50);
+    padding: 7.5% 10%;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    width: 100%;
+    margin-top: -5%;
+    text-align: center;
+  }
+  .open:hover{
+    color: rgb(50,50,50);
+    background-color: lightgray;
+  }
+  .bottom3{
+    color: seagreen;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+  .luckyLucky{
+    background-color: rgb(215,181,100);
+    border-radius: 50%;
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+  }
+  .luckyLucky:hover{
+    box-shadow: 0px 0px 10px 3px gold;
+    background-color: gold;
+  }
+  .luckyLucky a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(33,22,11);
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+    background-color: transparent;
+  }
+  .luckyLucky2{
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5%;
+    right: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .luckyLucky2 button{
+    text-decoration: none;
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .trueGift{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .trueGift:hover{
+    box-shadow: 0px 0px 10px 3px rgb(133,114,37);
+    background-color: rgb(133,114,37);
+  }
+  .dogeDoge{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .goingUp{
+    height: 60px;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    bottom: 1.5%;
+    left: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .goingUp a{
+    text-decoration: none;
+    display: block;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .trueUp{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  .trueUp:hover{
+    box-shadow: 0px 0px 10px 3px white;
+    background-color: white;
+  }
+  .upArrow{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .luckyLucky3{
+    background-color: transparent;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    width: 5%;
+    position: fixed;
+    bottom: 1.5%;
+    right: 0.5%;
+    background-color: transparent;
+    display: none;
+  }
+  .luckyLucky3 img{
+    text-decoration: none;
+    padding: 12.5%;
+    margin-top: 14%;
+  }
+  .animatedDog{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .dogeAnimation1{
+    animation: movingDoge1 15s 1;
+  }
+  .dogeAnimation2{
+    animation: movingDoge2 15s 1;
+  }
+  .dogeAnimation3{
+    animation: movingDoge3 15s 1;
+  }
+  .dogeAnimation4{
+    animation: movingDoge4 15s 1;
+  }
+  /* This section below contains calculations for a css pathway which is 25% of a circle and which I realized after could likely have been more effectively created using javascript (will explore this capability in the future if I come back to needing a circular pathway)*/
+  @keyframes movingDoge1{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-670px) translateY(-200px);}
+    24.7222222222%{transform: translateX(-668.2548px) translateY(-200.0152px);}
+    25.00%{transform: translateX(-666.5101px) translateY(-200.0609px);}
+    25.28%{transform: translateX(-664.7664px)	translateY(-200.1370px);}
+    25.56%{transform: translateX(-663.0244px)	translateY(-200.2436px);}
+    25.83%{transform: translateX(-661.2844px)	translateY(-200.3805px);}
+    26.11%{transform: translateX(-659.5472px)	translateY(-200.5478px);}
+    26.39%{transform: translateX(-657.8131px)	translateY(-200.7454px);}
+    26.67%{transform: translateX(-656.0827px) translateY(-200.9732px);}
+    26.94%{transform: translateX(-654.3566px)	translateY(-201.2312px);}
+    27.22%{transform: translateX(-652.6352px)	translateY(-201.5192px);}
+    27.50%{transform: translateX(-650.9191px)	translateY(-201.8373px);}
+    27.78%{transform: translateX(-649.2088px)	translateY(-202.1852px);}
+    28.06%{transform: translateX(-647.5049px)	translateY(-202.5630px);}
+    28.33%{transform: translateX(-645.8078px)	translateY(-202.9704px);}
+    28.61%{transform: translateX(-644.1181px)	translateY(-203.4074px);}
+    28.89%{transform: translateX(-642.4363px) translateY(-203.8738px);}
+    29.17%{transform: translateX(-640.7628px)	translateY(-204.3695px);}
+    29.44%{transform: translateX(-639.0983px)	translateY(-204.8943px);}
+    29.72%{transform: translateX(-637.4432px)	translateY(-205.4481px);}
+    30.00%{transform: translateX(-635.7980px)	translateY(-206.0307px);}
+    30.28%{transform: translateX(-634.1632px)	translateY(-206.6420px);}
+    30.56%{transform: translateX(-632.5393px) translateY(-207.2816px);}
+    30.83%{transform: translateX(-630.9269px)	translateY(-207.9495px);}
+    31.11%{transform: translateX(-629.3263px)	translateY(-208.6455px);}
+    31.39%{transform: translateX(-627.7382px)	translateY(-209.3692px);}
+    31.67%{transform: translateX(-626.1629px)	translateY(-210.1206px);}
+    31.94%{transform: translateX(-624.6010px)	translateY(-210.8993px);}
+    32.22%{transform: translateX(-623.0528px)	translateY(-211.7052px);}
+    32.50%{transform: translateX(-621.5190px)	translateY(-212.5380px);}
+    32.78%{transform: translateX(-620.0000px)	translateY(-213.3975px);}
+    33.06%{transform: translateX(-618.4962px)	translateY(-214.2833px);}
+    33.33%{transform: translateX(-617.0081px)	translateY(-215.1952px);}
+    33.61%{transform: translateX(-615.5361px)	translateY(-216.1329px);}
+    33.89%{transform: translateX(-614.0807px)	translateY(-217.0962px);}
+    34.17%{transform: translateX(-612.6424px)	translateY(-218.0848px);}
+    34.44%{transform: translateX(-611.2215px) translateY(-219.0983px);}
+    34.72%{transform: translateX(-609.8185px)	translateY(-220.1364px);}
+    35.00%{transform: translateX(-608.4339px)	translateY(-221.1989px);}
+    35.28%{transform: translateX(-607.0680px)	translateY(-222.2854px);}
+    35.56%{transform: translateX(-605.7212px)	translateY(-223.3956px);}
+    35.83%{transform: translateX(-604.3941px)	translateY(-224.5290px);}
+    36.11%{transform: translateX(-603.0869px)	translateY(-225.6855px);}
+    36.39%{transform: translateX(-601.8002px)	translateY(-226.8646px);}
+    36.67%{transform: translateX(-600.5342px)	translateY(-228.0660px);}
+    36.94%{transform: translateX(-599.2893px)	translateY(-229.2893px);}
+    37.22%{transform: translateX(-598.0660px)	translateY(-230.5342px);}
+    37.50%{transform: translateX(-596.8646px)	translateY(-231.8002px);}
+    37.78%{transform: translateX(-595.6855px)	translateY(-233.0869px);}
+    38.06%{transform: translateX(-594.5290px)	translateY(-234.3941px);}
+    38.33%{transform: translateX(-593.3956px)	translateY(-235.7212px);}
+    38.61%{transform: translateX(-592.2854px)	translateY(-237.0680px);}
+    38.89%{transform: translateX(-591.1989px)	translateY(-238.4339px);}
+    39.17%{transform: translateX(-590.1364px)	translateY(-239.8185px);}
+    39.44%{transform: translateX(-589.0983px)	translateY(-241.2215px);}
+    39.72%{transform: translateX(-588.0848px)	translateY(-242.6424px);}
+    40.00%{transform: translateX(-587.0962px)	translateY(-244.0807px);}
+    40.28%{transform: translateX(-586.1329px)	translateY(-245.5361px);}
+    40.56%{transform: translateX(-585.1952px)	translateY(-247.0081px);}
+    40.83%{transform: translateX(-584.2833px) translateY(-248.4962px);}
+    41.11%{transform: translateX(-583.3975px)	translateY(-250.0000px);}
+    41.39%{transform: translateX(-582.5380px)	translateY(-251.5190px);}
+    41.67%{transform: translateX(-581.7052px)	translateY(-253.0528px);}
+    41.94%{transform: translateX(-580.8993px)	translateY(-254.6010px);}
+    42.22%{transform: translateX(-580.1206px)	translateY(-256.1629px);}
+    42.50%{transform: translateX(-579.3692px)	translateY(-257.7382px);}
+    42.78%{transform: translateX(-578.6455px)	translateY(-259.3263px);}
+    43.06%{transform: translateX(-577.9495px)	translateY(-260.9269px);}
+    43.33%{transform: translateX(-577.2816px)	translateY(-262.5393px);}
+    43.61%{transform: translateX(-576.6420px)	translateY(-264.1632px);}
+    43.89%{transform: translateX(-576.0307px)	translateY(-265.7980px);}
+    44.17%{transform: translateX(-575.4481px)	translateY(-267.4432px);}
+    44.44%{transform: translateX(-574.8943px)	translateY(-269.0983px);}
+    44.72%{transform: translateX(-574.3695px)	translateY(-270.7628px);}
+    45.00%{transform: translateX(-573.8738px)	translateY(-272.4363px);}
+    45.28%{transform: translateX(-573.4074px)	translateY(-274.1181px);}
+    45.56%{transform: translateX(-572.9704px)	translateY(-275.8078px);}
+    45.83%{transform: translateX(-572.5630px) translateY(-277.5049px);}
+    46.11%{transform: translateX(-572.1852px) translateY(-279.2088px);}
+    46.39%{transform: translateX(-571.8373px)	translateY(-280.9191px);}
+    46.67%{transform: translateX(-571.5192px)	translateY(-282.6352px);}
+    46.94%{transform: translateX(-571.2312px)	translateY(-284.3566px);}
+    47.22%{transform: translateX(-570.9732px)	translateY(-286.0827px);}
+    47.50%{transform: translateX(-570.7454px)	translateY(-287.8131px);}
+    47.78%{transform: translateX(-570.5478px)	translateY(-289.5472px);}
+    48.06%{transform: translateX(-570.3805px)	translateY(-291.2844px);}
+    48.33%{transform: translateX(-570.2436px)	translateY(-293.0244px);}
+    48.61%{transform: translateX(-570.1370px)	translateY(-294.7664px);}
+    48.89%{transform: translateX(-570.0609px)	translateY(-296.5101px);}
+    49.17%{transform: translateX(-570.0152px)	translateY(-298.2548px);}
+    50%{transform: translateX(-570px)	translateY(-300px);}
+  }
+  @keyframes movingDoge2{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-670px) translateY(-400px);}
+    24.7222222222%{transform: translateX(-671.7452px) 	translateY(-399.9848px);}
+    25.00%{transform: translateX(-673.4899px) translateY(-399.9391px);}
+    25.28%{transform: translateX(-675.2336px) translateY(-399.8630px);}
+    25.56%{transform: translateX(-676.9756px) translateY(-399.7564px);}
+    25.83%{transform: translateX(-678.7156px) translateY(-399.6195px);}
+    26.11%{transform: translateX(-680.4528px) translateY(-399.4522px);}
+    26.39%{transform: translateX(-682.1869px) translateY(-399.2546px);}
+    26.67%{transform: translateX(-683.9173px) translateY(-399.0268px);}
+    26.94%{transform: translateX(-685.6434px) translateY(-398.7688px);}
+    27.22%{transform: translateX(-687.3648px) translateY(-398.4808px);}
+    27.50%{transform: translateX(-689.0809px) translateY(-398.1627px);}
+    27.78%{transform: translateX(-690.7912px)	translateY(-397.8148px);}
+    28.06%{transform: translateX(-692.4951px) translateY(-397.4370px);}
+    28.33%{transform: translateX(-694.1922px) translateY(-397.0296px);}
+    28.61%{transform: translateX(-695.8819px) translateY(-396.5926px);}
+    28.89%{transform: translateX(-697.5637px) translateY(-396.1262px);}
+    29.17%{transform: translateX(-699.2372px) translateY(-395.6305px);}
+    29.44%{transform: translateX(-700.9017px) translateY(-395.1057px);}
+    29.72%{transform: translateX(-702.5568px)	translateY(-394.5519px);}
+    30.00%{transform: translateX(-704.2020px)	translateY(-393.9693px);}
+    30.28%{transform: translateX(-705.8368px)	translateY(-393.3580px);}
+    30.56%{transform: translateX(-707.4607px)	translateY(-392.7184px);}
+    30.83%{transform: translateX(-709.0731px)	translateY(-392.0505px);}
+    31.11%{transform: translateX(-710.6737px)	translateY(-391.3545px);}
+    31.39%{transform: translateX(-712.2618px)	translateY(-390.6308px);}
+    31.67%{transform: translateX(-713.8371px)	translateY(-389.8794px);}
+    31.94%{transform: translateX(-715.3990px) translateY(-389.1007px);}
+    32.22%{transform: translateX(-716.9472px)	translateY(-388.2948px);}
+    32.50%{transform: translateX(-718.4810px)	translateY(-387.4620px);}
+    32.78%{transform: translateX(-720.0000px)	translateY(-386.6025px);}
+    33.06%{transform: translateX(-721.5038px)	translateY(-385.7167px);}
+    33.33%{transform: translateX(-722.9919px)	translateY(-384.8048px);}
+    33.61%{transform: translateX(-724.4639px)	translateY(-383.8671px);}
+    33.89%{transform: translateX(-725.9193px) translateY(-382.9038px);}
+    34.17%{transform: translateX(-727.3576px) translateY(-381.9152px);}
+    34.44%{transform: translateX(-728.7785px)	translateY(-380.9017px);}
+    34.72%{transform: translateX(-730.1815px) translateY(-379.8636px);}
+    35.00%{transform: translateX(-731.5661px) translateY(-378.8011px);}
+    35.28%{transform: translateX(-732.9320px) translateY(-377.7146px);}
+    35.56%{transform: translateX(-734.2788px) translateY(-376.6044px);}
+    35.83%{transform: translateX(-735.6059px) translateY(-375.4710px);}
+    36.11%{transform: translateX(-736.9131px) translateY(-374.3145px);}
+    36.39%{transform: translateX(-738.1998px)	translateY(-373.1354px);}
+    36.67%{transform: translateX(-739.4658px)	translateY(-371.9340px);}
+    36.94%{transform: translateX(-740.7107px) translateY(-370.7107px);}
+    37.22%{transform: translateX(-741.9340px) translateY(-369.4658px);}
+    37.50%{transform: translateX(-743.1354px) translateY(-368.1998px);}
+    37.78%{transform: translateX(-744.3145px) translateY(-366.9131px);}
+    38.06%{transform: translateX(-745.4710px) translateY(-365.6059px);}
+    38.33%{transform: translateX(-746.6044px)	translateY(-364.2788px);}
+    38.61%{transform: translateX(-747.7146px)	translateY(-362.9320px);}
+    38.89%{transform: translateX(-748.8011px)	translateY(-361.5661px);}
+    39.17%{transform: translateX(-749.8636px)	translateY(-360.1815px);}
+    39.44%{transform: translateX(-750.9017px) translateY(-358.7785px);}
+    39.72%{transform: translateX(-751.9152px) translateY(-357.3576px);}
+    40.00%{transform: translateX(-752.9038px)	translateY(-355.9193px);}
+    40.28%{transform: translateX(-753.8671px)	translateY(-354.4639px);}
+    40.56%{transform: translateX(-754.8048px)	translateY(-352.9919px);}
+    40.83%{transform: translateX(-755.7167px) translateY(-351.5038px);}
+    41.11%{transform: translateX(-756.6025px) translateY(-350.0000px);}
+    41.39%{transform: translateX(-757.4620px)	translateY(-348.4810px);}
+    41.67%{transform: translateX(-758.2948px)	translateY(-346.9472px);}
+    41.94%{transform: translateX(-759.1007px) translateY(-345.3990px);}
+    42.22%{transform: translateX(-759.8794px) translateY(-343.8371px);}
+    42.50%{transform: translateX(-760.6308px) translateY(-342.2618px);}
+    42.78%{transform: translateX(-761.3545px)	translateY(-340.6737px);}
+    43.06%{transform: translateX(-762.0505px)	translateY(-339.0731px);}
+    43.33%{transform: translateX(-762.7184px) translateY(-337.4607px);}
+    43.61%{transform: translateX(-763.3580px) translateY(-335.8368px);}
+    43.89%{transform: translateX(-763.9693px) translateY(-334.2020px);}
+    44.17%{transform: translateX(-764.5519px)	translateY(-332.5568px);}
+    44.44%{transform: translateX(-765.1057px)	translateY(-330.9017px);}
+    44.72%{transform: translateX(-765.6305px)	translateY(-329.2372px);}
+    45.00%{transform: translateX(-766.1262px)	translateY(-327.5637px);}
+    45.28%{transform: translateX(-766.5926px) translateY(-325.8819px);}
+    45.56%{transform: translateX(-767.0296px)	translateY(-324.1922px);}
+    45.83%{transform: translateX(-767.4370px) translateY(-322.4951px);}
+    46.11%{transform: translateX(-767.8148px) translateY(-320.7912px);}
+    46.39%{transform: translateX(-768.1627px)	translateY(-319.0809px);}
+    46.67%{transform: translateX(-768.4808px)	translateY(-317.3648px);}
+    46.94%{transform: translateX(-768.7688px)	translateY(-315.6434px);}
+    47.22%{transform: translateX(-769.0268px)	translateY(-313.9173px);}
+    47.50%{transform: translateX(-769.2546px) translateY(-312.1869px);}
+    47.78%{transform: translateX(-769.4522px)	translateY(-310.4528px);}
+    48.06%{transform: translateX(-769.6195px) translateY(-308.7156px);}
+    48.33%{transform: translateX(-769.7564px)	translateY(-306.9756px);}
+    48.61%{transform: translateX(-769.8630px)	translateY(-305.2336px);}
+    48.89%{transform: translateX(-769.9391px)	translateY(-303.4899px);}
+    49.17%{transform: translateX(-769.9848px) translateY(-301.7452px);}
+    50%{transform: translateX(-770px)	translateY(-300px);}
+  }
+  @keyframes movingDoge3{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-770px) translateY(-300px);}
+    24.7222222222%{transform: translateX(-769.9848px) translateY(-298.2548px);}
+    25.00%{transform: translateX(-769.9391px) translateY(-296.5101px);}
+    25.28%{transform: translateX(-769.8630px) translateY(-294.7664px);}
+    25.56%{transform: translateX(-769.7564px)	translateY(-293.0244px);}
+    25.83%{transform: translateX(-769.6195px) translateY(-291.2844px);}
+    26.11%{transform: translateX(-769.4522px) translateY(-289.5472px);}
+    26.39%{transform: translateX(-769.2546px)	translateY(-287.8131px);}
+    26.67%{transform: translateX(-769.0268px) translateY(-286.0827px);}
+    26.94%{transform: translateX(-768.7688px) translateY(-284.3566px);}
+    27.22%{transform: translateX(-768.4808px) translateY(-282.6352px);}
+    27.50%{transform: translateX(-768.1627px)	translateY(-280.9191px);}
+    27.78%{transform: translateX(-767.8148px) translateY(-279.2088px);}
+    28.06%{transform: translateX(-767.4370px)	translateY(-277.5049px);}
+    28.33%{transform: translateX(-767.0296px)	translateY(-275.8078px);}
+    28.61%{transform: translateX(-766.5926px) translateY(-274.1181px);}
+    28.89%{transform: translateX(-766.1262px) translateY(-272.4363px);}
+    29.17%{transform: translateX(-765.6305px) translateY(-270.7628px);}
+    29.44%{transform: translateX(-765.1057px) translateY(-269.0983px);}
+    29.72%{transform: translateX(-764.5519px) translateY(-267.4432px);}
+    30.00%{transform: translateX(-763.9693px)	translateY(-265.7980px);}
+    30.28%{transform: translateX(-763.3580px)	translateY(-264.1632px);}
+    30.56%{transform: translateX(-762.7184px)	translateY(-262.5393px);}
+    30.83%{transform: translateX(-762.0505px)	translateY(-260.9269px);}
+    31.11%{transform: translateX(-761.3545px)	translateY(-259.3263px);}
+    31.39%{transform: translateX(-760.6308px)	translateY(-257.7382px);}
+    31.67%{transform: translateX(-759.8794px)	translateY(-256.1629px);}
+    31.94%{transform: translateX(-759.1007px)	translateY(-254.6010px);}
+    32.22%{transform: translateX(-758.2948px)	translateY(-253.0528px);}
+    32.50%{transform: translateX(-757.4620px)	translateY(-251.5190px);}
+    32.78%{transform: translateX(-756.6025px)	translateY(-250.0000px);}
+    33.06%{transform: translateX(-755.7167px) translateY(-248.4962px);}
+    33.33%{transform: translateX(-754.8048px)	translateY(-247.0081px);}
+    33.61%{transform: translateX(-753.8671px)	translateY(-245.5361px);}
+    33.89%{transform: translateX(-752.9038px) translateY(-244.0807px);}
+    34.17%{transform: translateX(-751.9152px)	translateY(-242.6424px);}
+    34.44%{transform: translateX(-750.9017px)	translateY(-241.2215px);}
+    34.72%{transform: translateX(-749.8636px) translateY(-239.8185px);}
+    35.00%{transform: translateX(-748.8011px) translateY(-238.4339px);}
+    35.28%{transform: translateX(-747.7146px)	translateY(-237.0680px);}
+    35.56%{transform: translateX(-746.6044px)	translateY(-235.7212px);}
+    35.83%{transform: translateX(-745.4710px) translateY(-234.3941px);}
+    36.11%{transform: translateX(-744.3145px)	translateY(-233.0869px);}
+    36.39%{transform: translateX(-743.1354px) translateY(-231.8002px);}
+    36.67%{transform: translateX(-741.9340px) translateY(-230.5342px);}
+    36.94%{transform: translateX(-740.7107px) translateY(-229.2893px);}
+    37.22%{transform: translateX(-739.4658px)	translateY(-228.0660px);}
+    37.50%{transform: translateX(-738.1998px)	translateY(-226.8646px);}
+    37.78%{transform: translateX(-736.9131px)	translateY(-225.6855px);}
+    38.06%{transform: translateX(-735.6059px) translateY(-224.5290px);}
+    38.33%{transform: translateX(-734.2788px)	translateY(-223.3956px);}
+    38.61%{transform: translateX(-732.9320px) translateY(-222.2854px);}
+    38.89%{transform: translateX(-731.5661px)	translateY(-221.1989px);}
+    39.17%{transform: translateX(-730.1815px)	translateY(-220.1364px);}
+    39.44%{transform: translateX(-728.7785px)	translateY(-219.0983px);}
+    39.72%{transform: translateX(-727.3576px)	translateY(-218.0848px);}
+    40.00%{transform: translateX(-725.9193px)	translateY(-217.0962px);}
+    40.28%{transform: translateX(-724.4639px)	translateY(-216.1329px);}
+    40.56%{transform: translateX(-722.9919px)	translateY(-215.1952px);}
+    40.83%{transform: translateX(-721.5038px)	translateY(-214.2833px);}
+    41.11%{transform: translateX(-720.0000px)	translateY(-213.3975px);}
+    41.39%{transform: translateX(-718.4810px)	translateY(-212.5380px);}
+    41.67%{transform: translateX(-716.9472px)	translateY(-211.7052px);}
+    41.94%{transform: translateX(-715.3990px)	translateY(-210.8993px);}
+    42.22%{transform: translateX(-713.8371px)	translateY(-210.1206px);}
+    42.50%{transform: translateX(-712.2618px)	translateY(-209.3692px);}
+    42.78%{transform: translateX(-710.6737px)	translateY(-208.6455px);}
+    43.06%{transform: translateX(-709.0731px)	translateY(-207.9495px);}
+    43.33%{transform: translateX(-707.4607px)	translateY(-207.2816px);}
+    43.61%{transform: translateX(-705.8368px)	translateY(-206.6420px);}
+    43.89%{transform: translateX(-704.2020px)	translateY(-206.0307px);}
+    44.17%{transform: translateX(-702.5568px)	translateY(-205.4481px);}
+    44.44%{transform: translateX(-700.9017px)	translateY(-204.8943px);}
+    44.72%{transform: translateX(-699.2372px)	translateY(-204.3695px);}
+    45.00%{transform: translateX(-697.5637px)	translateY(-203.8738px);}
+    45.28%{transform: translateX(-695.8819px)	translateY(-203.4074px);}
+    45.56%{transform: translateX(-694.1922px)	translateY(-202.9704px);}
+    45.83%{transform: translateX(-692.4951px)	translateY(-202.5630px);}
+    46.11%{transform: translateX(-690.7912px)	translateY(-202.1852px);}
+    46.39%{transform: translateX(-689.0809px)	translateY(-201.8373px);}
+    46.67%{transform: translateX(-687.3648px)	translateY(-201.5192px);}
+    46.94%{transform: translateX(-685.6434px)	translateY(-201.2312px);}
+    47.22%{transform: translateX(-683.9173px)	translateY(-200.9732px);}
+    47.50%{transform: translateX(-682.1869px)	translateY(-200.7454px);}
+    47.78%{transform: translateX(-680.4528px)	translateY(-200.5478px);}
+    48.06%{transform: translateX(-678.7156px)	translateY(-200.3805px);}
+    48.33%{transform: translateX(-676.9756px)	translateY(-200.2436px);}
+    48.61%{transform: translateX(-675.2336px)	translateY(-200.1370px);}
+    48.89%{transform: translateX(-673.4899px)	translateY(-200.0609px);}
+    49.17%{transform: translateX(-671.7452px)	translateY(-200.0152px);}
+    50%{transform: translateX(-670px)	translateY(-200px);}
+  }
+  @keyframes movingDoge4{
+    0%{transform: translateX(0px) translateY(0px);}
+    24.4444444445%{transform: translateX(-570px) translateY(-300px);}
+    24.7222222222%{transform: translateX(-570.0152px) translateY(-301.7452px);}
+    25.00%{transform: translateX(-570.0609px) translateY(-303.4899px);}
+    25.28%{transform: translateX(-570.1370px) translateY(-305.2336px);}
+    25.56%{transform: translateX(-570.2436px) translateY(-306.9756px);}
+    25.83%{transform: translateX(-570.3805px) translateY(-308.7156px);}
+    26.11%{transform: translateX(-570.3805px) translateY(-308.7156px);}
+    26.39%{transform: translateX(-570.5478px) translateY(-310.4528px);}
+    26.67%{transform: translateX(-570.7454px) translateY(-312.1869px);}
+    26.94%{transform: translateX(-570.9732px) translateY(-313.9173px);}
+    27.22%{transform: translateX(-571.2312px) translateY(-315.6434px);}
+    27.50%{transform: translateX(-571.5192px) translateY(-317.3648px);}
+    27.78%{transform: translateX(-571.8373px) translateY(-319.0809px);}
+    28.06%{transform: translateX(-572.1852px) translateY(-320.7912px);}
+    28.33%{transform: translateX(-572.5630px) translateY(-322.4951px);}
+    28.61%{transform: translateX(-572.9704px) translateY(-324.1922px);}
+    28.89%{transform: translateX(-573.4074px) translateY(-325.8819px);}
+    29.17%{transform: translateX(-573.8738px) translateY(-327.5637px);}
+    29.44%{transform: translateX(-574.3695px) translateY(-329.2372px);}
+    29.72%{transform: translateX(-574.8943px) translateY(-330.9017px);}
+    30.00%{transform: translateX(-575.4481px) translateY(-332.5568px);}
+    30.28%{transform: translateX(-576.0307px) translateY(-334.2020px);}
+    30.56%{transform: translateX(-576.6420px) translateY(-335.8368px);}
+    30.83%{transform: translateX(-577.2816px) translateY(-337.4607px);}
+    31.11%{transform: translateX(-577.9495px) translateY(-339.0731px);}
+    31.39%{transform: translateX(-578.6455px) translateY(-340.6737px);}
+    31.67%{transform: translateX(-579.3692px) translateY(-342.2618px);}
+    31.94%{transform: translateX(-580.1206px) translateY(-343.8371px);}
+    32.22%{transform: translateX(-580.8993px) translateY(-345.3990px);}
+    32.50%{transform: translateX(-581.7052px) translateY(-346.9472px);}
+    32.78%{transform: translateX(-582.5380px) translateY(-348.4810px);}
+    33.06%{transform: translateX(-583.3975px) translateY(-350.0000px);}
+    33.33%{transform: translateX(-584.2833px) translateY(-351.5038px);}
+    33.61%{transform: translateX(-585.1952px) translateY(-352.9919px);}
+    33.89%{transform: translateX(-586.1329px) translateY(-354.4639px);}
+    34.17%{transform: translateX(-587.0962px) translateY(-355.9193px);}
+    34.44%{transform: translateX(-588.0848px) translateY(-357.3576px);}
+    34.72%{transform: translateX(-589.0983px) translateY(-358.7785px);}
+    35.00%{transform: translateX(-590.1364px) translateY(-360.1815px);}
+    35.28%{transform: translateX(-591.1989px) translateY(-361.5661px);}
+    35.56%{transform: translateX(-592.2854px) translateY(-362.9320px);}
+    35.83%{transform: translateX(-593.3956px) translateY(-364.2788px);}
+    36.11%{transform: translateX(-594.5290px) translateY(-365.6059px);}
+    36.39%{transform: translateX(-595.6855px) translateY(-366.9131px);}
+    36.67%{transform: translateX(-596.8646px) translateY(-368.1998px);}
+    36.94%{transform: translateX(-598.0660px) translateY(-369.4658px);}
+    37.22%{transform: translateX(-599.2893px) translateY(-370.7107px);}
+    37.50%{transform: translateX(-600.5342px) translateY(-371.9340px);}
+    37.78%{transform: translateX(-601.8002px) translateY(-373.1354px);}
+    38.06%{transform: translateX(-603.0869px) translateY(-374.3145px);}
+    38.33%{transform: translateX(-604.3941px) translateY(-375.4710px);}
+    38.61%{transform: translateX(-605.7212px) translateY(-376.6044px);}
+    38.89%{transform: translateX(-607.0680px) translateY(-377.7146px);}
+    39.17%{transform: translateX(-608.4339px) translateY(-378.8011px);}
+    39.44%{transform: translateX(-609.8185px) translateY(-379.8636px);}
+    39.72%{transform: translateX(-611.2215px) translateY(-380.9017px);}
+    40.00%{transform: translateX(-612.6424px) translateY(-381.9152px);}
+    40.28%{transform: translateX(-614.0807px) translateY(-382.9038px);}
+    40.56%{transform: translateX(-615.5361px) translateY(-383.8671px);}
+    40.83%{transform: translateX(-617.0081px) translateY(-384.8048px);}
+    41.11%{transform: translateX(-618.4962px) translateY(-385.7167px);}
+    41.39%{transform: translateX(-620.0000px) translateY(-386.6025px);}
+    41.67%{transform: translateX(-621.5190px) translateY(-387.4620px);}
+    41.94%{transform: translateX(-623.0528px) translateY(-388.2948px);}
+    42.22%{transform: translateX(-624.6010px) translateY(-389.1007px);}
+    42.50%{transform: translateX(-626.1629px) translateY(-389.8794px);}
+    42.78%{transform: translateX(-627.7382px) translateY(-390.6308px);}
+    43.06%{transform: translateX(-629.3263px) translateY(-391.3545px);}
+    43.33%{transform: translateX(-630.9269px) translateY(-392.0505px);}
+    43.61%{transform: translateX(-632.5393px) translateY(-392.7184px);}
+    43.89%{transform: translateX(-634.1632px) translateY(-393.3580px);}
+    44.17%{transform: translateX(-635.7980px) translateY(-393.9693px);}
+    44.44%{transform: translateX(-637.4432px) translateY(-394.5519px);}
+    44.72%{transform: translateX(-639.0983px) translateY(-395.1057px);}
+    45.00%{transform: translateX(-640.7628px) translateY(-395.6305px);}
+    45.28%{transform: translateX(-642.4363px) translateY(-396.1262px);}
+    45.56%{transform: translateX(-644.1181px) translateY(-396.5926px);}
+    45.83%{transform: translateX(-645.8078px) translateY(-397.0296px);}
+    46.11%{transform: translateX(-647.5049px) translateY(-397.4370px);}
+    46.39%{transform: translateX(-649.2088px) translateY(-397.8148px);}
+    46.67%{transform: translateX(-650.9191px) translateY(-398.1627px);}
+    46.94%{transform: translateX(-652.6352px) translateY(-398.4808px);}
+    47.22%{transform: translateX(-654.3566px) translateY(-398.7688px);}
+    47.50%{transform: translateX(-656.0827px) translateY(-399.0268px);}
+    47.78%{transform: translateX(-657.8131px) translateY(-399.2546px);}
+    48.06%{transform: translateX(-659.5472px) translateY(-399.4522px);}
+    48.33%{transform: translateX(-661.2844px) translateY(-399.6195px);}
+    48.61%{transform: translateX(-663.0244px) translateY(-399.7564px);}
+    48.89%{transform: translateX(-664.7664px) translateY(-399.8630px);}
+    49.17%{transform: translateX(-666.5101px) translateY(-399.9391px);}
+    50%{transform: translateX(-670px) translateY(-400px);}
+  }
+  /* This section above contains calculations for a css pathway which is 25% of a circle and which I realized after could likely have been more effectively created using javascript (will explore this capability in the future if I come back to needing a circular pathway)*/
+  .purchaseTicket{
+    background-color: mediumseagreen;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    width: 5%;
+    position: fixed;
+    bottom: 10%;
+    right: 0.5%;
+    display: none;
+  }
+  .purchaseTicket:hover{
+    box-shadow: 0px 0px 10px 3px mediumseagreen;
+  }
+  .purchaseTicket a{
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .purchaseTicket img{
+    text-decoration: none;
+    padding: 10%;
+    margin-top: 0%;
+    background-color: transparent;
+  }
+  .nonanimatedTicket{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .newModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .newModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .newModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .aSpin{
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  .line0{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: -1%;
+    width: 80%;
+  }
+  .slideshow0{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 6.25%;
+    width: 25%;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .spinWrapper1{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg1{
+    width: 100%;
+    height: 25%;
+    margin-bottom: -3.75%;
+    margin-top: 3.75%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge1{
+    width: 100%;
+    margin-top: 3.75%;
+    height: 17.5%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spinWrapper2{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg2{
+    width: 100%;
+    height: 25%;
+    margin-bottom: -3.75%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge2{
+    width: 100%;
+    margin-top: 3.75%;
+    height: 17.5%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spinWrapper3{
+    width: 100%;
+    height: 400%;
+    background-color: transparent;
+  }
+  .spinImg3{
+    width: 100%;
+    height: 25%;
+    margin-bottom: -7%;
+    position: relative;
+    background-color: transparent;
+  }
+  .spinImgDoge3{
+    width: 100%;
+    margin-top: 3.75%;
+    height: 17.5%;
+    margin-bottom: 3.75%;
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .animation1{
+    animation: aNewSlideshow 7.5s infinite;
+    animation-direction: alternate;
+  }
+  .animation2{
+    animation: aNewSlideshow 10s infinite;
+    animation-direction: alternate;
+  }
+  .animation3{
+    animation: aNewSlideshow 12.5s infinite;
+    animation-direction: alternate;
+  }
+  @keyframes aNewSlideshow{
+    0%{margin-top: 0%;}
+    10%{margin-top: -100%;}
+    30%{margin-top: -100%;}
+    40%{margin-top: -200%;}
+    60%{margin-top: -200%;}
+    70%{margin-top: -300%;}
+    90%{margin-top: -300%;}
+    100%{margin-top: -300%;}
+  }
+  .to-start{
+    background-color: red;
+    color: gold;
+    margin-left: 6.25%;
+    width: 25%;
+    margin-top: 10.5%;
+    display: inline-block;
+    float: left;
+  }
+  .to-select{
+    background-color: gold;
+    color: red;
+    margin-left: 37.5%;
+    width: 25%;
+    margin-top: 9%;
+    display: inline-block;
+    float: left;
+  }
+  .containsGift{
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .gift{
+    background-color: black;
+    color: palegreen;
+    margin-left: 37.5%;
+    margin-top: 3%;
+    width: 25%;
+    display: none;
+  }
+  .gift:hover{
+    background-color: palegreen;
+    color: black;
+  }
+  .ticketModalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: palegreen;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .ticketModalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 2s;
+  }
+  .ticketModalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .theBacking{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+  }
+  .ticketTitle{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: 2em;
+    margin-left: 33.5%;
+    width: 33%;
+  }
+  .winning{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 10%;
+    width: 25%;
+    height: 100px;
+    margin-top: 10%;
+    background-color: salmon;
+    position: absolute;
+    animation: down 10s infinite forwards;
+  }
+  @keyframes down {
+    0{margin-top: 10%; margin-left: 10%;}
+    12.50%{margin-top: 25%; margin-left: 10%;}
+    25%{margin-top: 50%; margin-left: 10%;}
+    37.5%{margin-top: 50%; margin-left: 32.5%;}
+    50%{margin-top: 50%; margin-left: 65%;}
+    62.5%{margin-top: 25%; margin-left: 65%;}
+    75%{margin-top: 10%; margin-left: 65%;}
+    87.5%{margin-top: 10%; margin-left: 32.5%;}
+    99%{margin-top: 10%; margin-left: 10%;}
+  }
+  .wow1{
+    color: white;
+  }
+  .winning p, .winning b, .winning i{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+  }
+  .losing{
+    border: black solid;
+    box-shadow: 0px 0px 8px 1.5px black;
+    margin-left: 65%;
+    width: 25%;
+    height: 100px;
+    margin-top: 50%;
+    background-color: rgb(197,22,32);
+    position: absolute;
+    animation: up 10s infinite forwards;
+  }
+  @keyframes up {
+    0%{margin-top: 50%; margin-left: 65%;}
+    12.50%{margin-top: 25%; margin-left: 65%;}
+    25%{margin-top: 10%; margin-left: 65%;}
+    37.5%{margin-top: 10%; margin-left: 32.5%;}
+    50%{margin-top: 10%; margin-left: 10%;}
+    62.5%{margin-top: 25%; margin-left: 10%;}
+    75%{margin-top: 50%; margin-left: 10%;}
+    87.5%{margin-top: 50%; margin-left: 32.5%;}
+    99%{margin-top: 50%; margin-left: 65%;}
+  }
+  .losing p, .losing b, .losing i{
+    background-color: transparent;
+    position: relative;
+    text-align: center;
+  }
+  .wow2{
+    color: white;
+  }
+  .modalBack{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(50,50,50,0.5);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .modalBack:target{
+    opacity: 1;
+    pointer-events: auto;
+    transition: ease-in 0.25s;
+  }
+  .modalFront{
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    border: solid rgb(50,50,50);
+  }
+  .close{
+    background-color: lightgray;
+    padding: 2.5%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+  .close:hover{
+    background-color: rgb(50,50,50);
+    color: lightgray;
+  }
+  .itIsIn{
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 6%;
+    position: absolute;
+  }
+  .line2{
+    border: none;
+    height: 12.5px;
+    background-color: lightgray;
+    margin-top: 10%;
+    width: 80%;
+  }
+  .imgCont{
+    width: 30%;
+    height: 48%;
+    float: left;
+    margin-top: -3%;
+    margin-left: 20%;
+    background-color: transparent;
+  }
+  .imgCont img{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color: transparent;
+  }
+  .info{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: transparent;
+  }
+  .info p:nth-child(1){
+    font-size: 150%;
+    background-color: transparent;
+    margin-top: 20%;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .info p:nth-child(2){
+    font-size: 70%;
+    margin-top: -8%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .info p:nth-child(3){
+    margin-top: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .info p:nth-child(4){
+    background-color: transparent;
+    margin-left: 10%;
+    color: black;
+    font-weight: bold;
+  }
+  .moreInfo{
+    height: 35%;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 28.5%;
+    position: absolute;
+  }
+  .moreInfoPara{
+    background-color: transparent;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .line3{
+    border: none;
+    height: 3.125px;
+    background-color: white;
+    margin-top: -0.5em;
+    width: 80%;
+  }
+  .back{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 1% 3%;
+    display: inline-block;
+    margin-left:10%;
+    margin-top: -0.5%;
+  }
+  .back:hover{
+    background: black;
+    color: white;
+  }
+  .infoPart2{
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-top: -5%;
+    margin-left: -5%;
+    background-color: transparent;
+  }
+  .infoPart2 p:nth-child(1){
+    font-size: 150%;
+    background-color: transparent;
+    margin-top:20%;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .infoPart2 p:nth-child(2){
+    font-size: 70%;
+    margin-top: -10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .infoPart2 p:nth-child(3){
+    margin-top: 10%;
+    background-color: transparent;
+    margin-left: 10%;
+  }
+  .infoPart2 p:nth-child(4){
+    background-color: transparent;
+    margin-left: 10%;
+    font-weight: bold;
+  }
+  .theBottom{
+    background-color: rgb(50,50,50);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    width: 80%;
+    height: 675px;
+    float: left;
+  }
+  .theBottom1, .theBottom2, .theBottom3, .theBottom4{
+    width: 15%;
+    height: 20%;
+    margin-top: 6%;
+    background-color: transparent;
+    margin-left: 14%;
+    float: left;
+  }
+  .theBottom1 p, .theBottom2 p, .theBottom3 p, .theBottom4 p{
+    color: white;
+    text-align: center;
+    border: inset 0.01px white;
+    background-color: transparent;
+  }
+  .theBottom2 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom3 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom4 p{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  }
+  .theBottom p:hover{
+    border: outset 0.5px white;
+    background-color: white;
+    color: seagreen;
+  }
+  .theBottom1 a, .theBottom2 a, .theBottom3 a, .theBottom4 a{
+    text-decoration: none;
+  }
+  .line4{
+    border: none;
+    height: 3.125px;
+    background-color: white;
+    margin-top: 20%;
+    width: 90%;
+  }
+  .theBottom5{
+    background-color: transparent;
+    margin-top: 5%;
+    width: 33.5%;
+    margin-left: 61%;
+    height: 200px;
+  }
+  .connect{
+    background-color: transparent;
+    color: white;
+    text-align: right;
+  }
+  .theSocials{
+    width: 8%;
+    height: 15%;
+    background-color: transparent;
+    margin-left: 12%;
+    float: left;
+    display: inline-block;
+  }
+  .social{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  .theEnd1{
+    font-size:75%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .theEnd2{
+    font-size: 75%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: white;
+    margin-top: 1.5%;
+    text-align: center;
+  }
+  fieldset{
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: transparent;
+    position: absolute;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+    border: solid transparent;
+    color: white;
+  }
+  label{
+    display: inline-block;
+  }
+  #submit_bt{
+    background-color: mediumseagreen;
+    color: white;
+    box-shadow: 0px 0px 5px 3px black;
+    border: outset lightgray;
+    display: none;
+  }
+  #submit_bt:hover{
+    background-color: white;
+    color: mediumseagreen;
+  }
+  .minus1 input, .minus2 input, .minus3 input, .minus4 input, .minus5 input, .minus6 input{
+    width: 100%;
+  }
+  .minus1{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus2{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 30%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus3{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 50%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus4{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 50%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus5{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 30%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+  .minus6{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 10%;
+    width: 10%;
+    height: 7.5%;
+    border: inset mediumseagreen;
+  }
+}

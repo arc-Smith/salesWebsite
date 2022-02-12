@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmai Chaney-Smith - Final Project (continuation)</title>
+    <link rel="stylesheet" href="websiteCheckout.css" type="text/css">
+  </head>
+  <body>
+    <form class="" action="{{url_for('anotherThankYou')}}" method="post" onopen="">
+      <fieldset>
+        <legend>CHECKOUT</legend>
+
+        <div>
+          <img src="images/notIn.png" alt="" width="10%" height="10%" id="image1" >
+
+          <span id="forImage1" >No BTC In Cart</span>
+        </div>
+
+        <div>
+          <img src="images/notIn.png" alt="" width="10%" height="10%" id="image2" >
+
+          <span id="forImage2" >No ETH In Cart</span>
+        </div>
+
+        <div>
+          <img src="images/notIn.png" alt="" width="10%" height="10%" id="image3">
+
+          <span id="forImage3" >No LTC In Cart</span>
+        </div>
+
+        <div>
+          <img src="images/notIn.png" alt="" width="10%" height="10%" id="image4" >
+
+          <span id="forImage4" >No GOOGL In Cart</span>
+        </div>
+
+        <div>
+          <img src="images/notIn.png" alt="" width="10%" height="10%" id="image5" >
+
+          <span id="forImage5" >No NFLX In Cart</span>
+        </div>
+
+        <div>
+          <img src="images/notIn.png" alt="" width="10%" height="10%" id="image6" >
+
+          <span id="forImage6" >No FB In Cart</span>
+        </div>
+
+        <h3>Order total: $<span id="display_price"></h3>
+
+        <a href="anotherThankYou.html" style="text-decoration: none; border: inset 1px black; padding: 1px;" id="toThankYou">Purchase</a>
+
+        <hr style="margin: 1em;">
+
+        <!-- salesWebsite.html#cartWindow
+      salesWebsite.html#cartWindow customersCart -->
+        <!-- <a href="" style="text-decoration: none; border: outset 1px black; padding: 5px; margin-left: 40%;" id="backTo" target="_self" onclick="cartItems();">Back To Cart</a> -->
+      </fieldset>
+    </form>
+
+    <script type="text/javascript">
+
+      let inform1 = document.querySelector('#forImage1');
+      inform1.innerHTML = sessionStorage.getItem('item1');
+      let alterImg1 = document.querySelector('#image1');
+      alterImg1.src = "images/aBitcoin.png";
+      if(!(sessionStorage.getItem('item1').includes("$"))){
+        inform1.innerHTML = ``;
+      }
+
+      let inform2 = document.querySelector('#forImage2');
+      inform2.innerHTML = sessionStorage.getItem('item2');
+      let alterImg2 = document.querySelector('#image2');
+      alterImg2.src = "images/anEthereum.png";
+      if(!(sessionStorage.getItem('item2').includes("$"))){
+        inform2.innerHTML = ``;
+      }
+
+      let inform3 = document.querySelector('#forImage3');
+      inform3.innerHTML = sessionStorage.getItem('item3');
+      let alterImg3 = document.querySelector('#image3');
+      alterImg3.src = "images/aLitecoin.png";
+      if(!(sessionStorage.getItem('item3').includes("$"))){
+        inform3.innerHTML = ``;
+      }
+
+      let inform4 = document.querySelector('#forImage4');
+      inform4.innerHTML = sessionStorage.getItem('item4');
+      let alterImg4 = document.querySelector('#image4');
+      alterImg4.src = "images/aGoogle.png";
+      if(!(sessionStorage.getItem('item4').includes("$"))){
+        inform4.innerHTML = ``;
+      }
+
+      let inform5 = document.querySelector('#forImage5');
+      inform5.innerHTML = sessionStorage.getItem('item5');
+      let alterImg5 = document.querySelector('#image5');
+      alterImg5.src = "images/aNetflix.png";
+      if(!(sessionStorage.getItem('item5').includes("$"))){
+        inform5.innerHTML = ``;
+      }
+
+      let inform6 = document.querySelector('#forImage6');
+      inform6.innerHTML = sessionStorage.getItem('item6');
+      let alterImg6 = document.querySelector('#image6');
+      alterImg6.src = "images/aFacebook.png";
+      if(!(sessionStorage.getItem('item6').includes("$"))){
+        inform6.innerHTML = ``;
+      }
+
+      let total = 0;
+      total += parseFloat(sessionStorage.getItem('finalTotal1'));
+      total += parseFloat(sessionStorage.getItem('finalTotal2'));
+      total += parseFloat(sessionStorage.getItem('finalTotal3'));
+      total += parseFloat(sessionStorage.getItem('finalTotal4'));
+      total += parseFloat(sessionStorage.getItem('finalTotal5'));
+      total += parseFloat(sessionStorage.getItem('finalTotal6'));
+      let displaying = document.querySelector('#display_price');
+      displaying.innerHTML += `${total}`;
+
+      /*
+      An attempt having a button that connected to the cart and loads up all the cart items' correct amount and price
+      function cartItems(){
+        document.querySelector('#backTo').href = `salesWebsite.html#cartWindow`;
+      }
+      */
+    </script>
+  </body>
+</html>

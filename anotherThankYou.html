@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thank you!</title>
+  </head>
+  <body>
+    <h2>Thank you for shopping</h2>
+    <p id="finalSentence">[Order ID: <span style="inline; color: red; "></span></p>
+    <br><br>
+    <a href='index.html' style="text-decoration: none; border: black solid; background-color: red; color: white; padding: 2.5px;">Back To Website</a>
+
+    <script type="text/javascript">
+      let lastOrderID = document.querySelector('#finalSentence span');
+      document.querySelector('#finalSentence').style.fontWeight = "bold";
+      lastOrderID.innerHTML += sessionStorage.getItem('orderID');
+      document.querySelector('#finalSentence').innerHTML += ']';
+    </script>
+  </body>
+</html>
