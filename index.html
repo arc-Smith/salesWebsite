@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmai Chaney-Smith - Final Project</title>
+    <link rel="stylesheet" href="salesWebsite.css" type="text/css">
+  </head>
+  <body class="theActualBody">
+    <div class="websiteImg">
+      <img src="images/stocksImg.jpg" alt="meme image of stocks" class="topImg">
+    </div>
+    <div class="websiteText">
+      <p class="para1">Ahmai's Crypto/Stock Collection</p>
+      <p class="para2">Travel to the past and triump with your selections!</p>
+    </div>
+    <br><br><br><br><br>
+    <div class="slideshow1">
+      <div class="slide-wrapper1">
+
+        <div class="newSlide1">
+          <p class="s1w1">FREE Shipping and Handling</p>
+          <p class="s1w2">on orders over $50. Code:FREE50</p>
+        </div>
+
+        <div class="newSlide2">
+          <p class="s2w1">Today Only!</p>
+          <p class="s2w2">$327.00 BITCOIN ADDED TO CART WITH PURCHASES OVER $499.99</p>
+          <p class="s2w3">Code:BITCOIN</p>
+        </div>
+
+        <div class="newSlide3">
+          <p class="s3w1">$20</p>
+          <p class="s3w2">OFF $125 order and</p>
+          <p class="s3w3">$50</p>
+          <p class="s3w4">OFF $200 order using</p>
+          <p class="s3w5">Code:BONUS</p>
+          <p class="s3w6">(included is a free coin bag ~ manage your offline portfolio of coins without stress)</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="imgContainer1">
+      <img src="images/bitcoin.jpg_fit=scale" alt="" class="img1">
+
+      <div class="textbox1">
+        <p class="text0">
+          <b style="background-color:lightgray;">Market cap:</b> US$775 billion
+          <b style="background-color:lightgray;"><br>Supply limit:</b> ₿21,000,000
+          <b style="background-color:lightgray;"><br>Original author(s):</b> Satoshi Nakamoto
+        </p>
+      </div>
+
+    </div>
+
+    <div class="imgContainer2">
+      <img src="images/googleOffice.jpeg" alt="" class="img2">
+
+      <p class="text1"><b style="background-color:white;">Revenue:</b> $182.53 billion USD (2020)
+<b style="background-color:white;"><br>CEO:</b> Sundar Pichai (Dec 3, 2019–)
+<b style="background-color:white;"><br>Type of business:</b> Public</p>
+    </div>
+
+    <div class="productContainer">
+
+      <form class="myForm2" href="">
+
+        <input id="searchbar" onkeyup="search_stocks()" type="text" name="search" placeholder="1-Time-Multi-Purchase (per item)" autocomplete="off">
+        <a class="hyper">
+          <img src="" alt="" class="opened">
+        </a>
+
+        <a href="#cartWindow"><img src="images/shopping.png" alt="" class="cart" id="theCart"></a>
+      </form>
+
+      <div class="cartModalBack" id="cartWindow">
+        <div class="cartModalFront">
+
+          <img src="images/shopping.png" alt="" class="theBacking2">
+
+          <a href="#theCart" class="newClose">&#9747;</a>
+          <p class="cartTitle"><b><i>Shopping Cart</i></b></p>
+
+          <form class="form1" action="websiteCheckout.html" method="get" id="theForm">
+            <fieldset>
+
+              <label>
+                <input type="submit" name="submit_bt" id="submit_bt" value="Direct Buy" onclick="passvalues();">
+              </label>
+
+              <script type="text/javascript">
+                function passvalues(){
+                  let item1 = document.getElementById('itemItem1').innerHTML;
+                  sessionStorage.setItem('item1',item1);
+                  let item2 = document.getElementById('itemItem2').innerHTML;
+                  sessionStorage.setItem('item2',item2);
+                  let item3 = document.getElementById('itemItem3').innerHTML;
+                  sessionStorage.setItem('item3',item3);
+                  let item4 = document.getElementById('itemItem4').innerHTML;
+                  sessionStorage.setItem('item4',item4);
+                  let item5 = document.getElementById('itemItem5').innerHTML;
+                  sessionStorage.setItem('item5',item5);
+                  let item6 = document.getElementById('itemItem6').innerHTML;
+                  sessionStorage.setItem('item6',item6);
+
+                  /* Code below is used to calculate the price */
+                  if((sessionStorage.getItem('item1').includes("$"))){
+                    let temp1 = item1.slice(item1.indexOf("$")+1);
+                    let finalTotal1 = temp1.slice(0,temp1.indexOf("["));
+                    sessionStorage.setItem('finalTotal1',finalTotal1);
+                  } else {
+                    let finalTotal1 = 0;
+                    sessionStorage.setItem('finalTotal1',finalTotal1);
+                  }
+                  if((sessionStorage.getItem('item2').includes("$"))){
+                    let temp2 = item2.slice(item2.indexOf("$")+1);
+                    let finalTotal2 = temp2.slice(0,temp2.indexOf("["));
+                    sessionStorage.setItem('finalTotal2',finalTotal2);
+                  } else {
+                    let finalTotal2 = 0;
+                    sessionStorage.setItem('finalTotal2',finalTotal2);
+                  }
+                  if((sessionStorage.getItem('item3').includes("$"))){
+                    let temp3 = item3.slice(item3.indexOf("$")+1);
+                    let finalTotal3 = temp3.slice(0,temp3.indexOf("["));
+                    sessionStorage.setItem('finalTotal3',finalTotal3);
+                  } else {
+                    let finalTotal3 = 0;
+                    sessionStorage.setItem('finalTotal3',finalTotal3);
+                  }
+                  if((sessionStorage.getItem('item4').includes("$"))){
+                    let temp4 = item4.slice(item4.indexOf("$")+1);
+                    let finalTotal4 = temp4.slice(0,temp4.indexOf("["));
+                    sessionStorage.setItem('finalTotal4',finalTotal4);
+                  } else {
+                    let finalTotal4 = 0;
+                    sessionStorage.setItem('finalTotal4',finalTotal4);
+                  }
+                  if((sessionStorage.getItem('item5').includes("$"))){
+                    let temp5 = item5.slice(item5.indexOf("$")+1);
+                    let finalTotal5 = temp5.slice(0,temp5.indexOf("["));
+                    sessionStorage.setItem('finalTotal5',finalTotal5);
+                  } else {
+                    let finalTotal5 = 0;
+                    sessionStorage.setItem('finalTotal5',finalTotal5);
+                  }
+                  if((sessionStorage.getItem('item6').includes("$"))){
+                    let temp6 = item6.slice(item6.indexOf("$")+1);
+                    let finalTotal6 = temp6.slice(0,temp6.indexOf("["));
+                    sessionStorage.setItem('finalTotal6',finalTotal6);
+                  } else {
+                    let finalTotal6 = 0;
+                    sessionStorage.setItem('finalTotal6',finalTotal6);
+                  }
+                  /* Code above is used to calculate the price */
+
+                  /* Code below generates a random order ID */
+                  let orderID = "";
+                  let orderLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                  let orderNumbers = "0123456789";
+
+                  let choose1 = Math.floor(Math.random()*26);
+                  let choose2 = Math.floor(Math.random()*26);
+                  let choose3 = Math.floor(Math.random()*10);
+                  let choose4 = Math.floor(Math.random()*10);
+                  let choose5 = Math.floor(Math.random()*10);
+                  let choose6 = Math.floor(Math.random()*10);
+
+                  let letter1 = orderLetters.substr(choose1,1);
+                  let letter2 = orderLetters.substr(choose2,1);
+
+                  let num1 = orderNumbers.substr(choose3,1);
+                  let num2 = orderNumbers.substr(choose4,1);
+                  let num3 = orderNumbers.substr(choose5,1);
+                  let num4 = orderNumbers.substr(choose6,1);
+
+                  orderID += letter1+letter2+num1+num2+num3+num4;
+
+                  sessionStorage.setItem('orderID',orderID);
+                  /* Code above generates a random order ID */
+                }
+              </script>
+            </fieldset>
+          </form>
+
+          <hr class="ticketLine">
+
+          <div class="minus1">
+            <img src="images/aBitcoin.png" alt="" width="100%" height="75%">
+            <input type="submit" name="" value="-10">
+            <input type="submit" name="" value="-1">
+            <input type="submit" name="" value="-all">
+          </div>
+
+          <div class="minus2">
+            <img src="images/anEthereum.png" alt="" width="100%" height="75%">
+            <input type="submit" name="" value="-10">
+            <input type="submit" name="" value="-1">
+            <input type="submit" name="" value="-all">
+          </div>
+
+          <div class="minus3">
+            <img src="images/aLitecoin.png" alt="" width="100%" height="75%">
+            <input type="submit" name="" value="-10">
+            <input type="submit" name="" value="-1">
+            <input type="submit" name="" value="-all">
+          </div>
+
+          <div class="minus4">
+            <img src="images/aGoogle.png" alt="" width="100%" height="75%">
+            <input type="submit" name="" value="-10">
+            <input type="submit" name="" value="-1">
+            <input type="submit" name="" value="-all">
+          </div>
+
+          <div class="minus5">
+            <img src="images/aNetflix.png" alt="" width="100%" height="75%">
+            <input type="submit" name="" value="-10">
+            <input type="submit" name="" value="-1">
+            <input type="submit" name="" value="-all">
+          </div>
+
+          <div class="minus6">
+            <img src="images/aFacebook.png" alt="" width="100%" height="75%">
+            <input type="submit" name="" value="-10">
+            <input type="submit" name="" value="-1">
+            <input type="submit" name="" value="-all">
+          </div>
+
+          <div class="hold1">
+            <img src="images/aBitcoin.png" alt="" width="100%" height="100%" position="relative">
+            <p class="item" id="itemItem1"><b><i>BTC: </i></b></p>
+          </div>
+
+          <div class="hold2">
+            <img src="images/anEthereum.png" alt="" width="100%" height="100%" position="relative">
+            <p class="item" id="itemItem2"><b><i>ETH: </i></b></p>
+          </div>
+
+          <div class="hold3">
+            <img src="images/aLitecoin.png" alt="" width="100%" height="100%" position="relative">
+            <p class="item" id="itemItem3"><b><i>LTC: </i></b></p>
+          </div>
+
+          <div class="hold4">
+            <img src="images/aGoogle.png" alt="" width="100%" height="100%" position="relative">
+            <p class="item" id="itemItem4"><b><i>GOOGL: </i></b></p>
+          </div>
+
+          <div class="hold5">
+            <img src="images/aNetflix.png" alt="" width="100%" height="100%" position="relative">
+            <p class="item" id="itemItem5"><b><i>NFLX: </i></b></p>
+          </div>
+
+          <div class="hold6">
+            <img src="images/aFacebook.png" alt="" width="100%" height="100%" position="relative">
+            <p class="item" id="itemItem6" position="absolute"><b><i>FB: </i></b></p>
+          </div>
+
+          <!-- An attempt creating code that loads up all the shopping cart items (not working as intended)
+          <script type="text/javascript">
+            if(sessionStorage.getItem('item1')!==null){
+              document.getElementById('itemItem1').innerHTML += sessionStorage.getItem('item1').substr(11);
+              document.getElementById('submit_bt').style.display = 'block';
+          }
+          </script> -->
+
+          </div>
+        </div>
+
+        <ol id='stockList'>
+          <li class="stocks">Bitcoin</li>
+          <li class="stocks">Ether</li>
+          <li class="stocks">Google</li>
+          <li class="stocks">Litecoin</li>
+          <li class="stocks">Meta</li>
+          <li class="stocks">Netflix</li>
+        </ol>
+
+
+      <p class="top3" id="return1">(Early) Crypto Prices</p>
+      <hr class="line1">
+
+      <div class="crypto">
+        <img src="images/aBitcoin.png" alt="" class="top1">
+        <p class="info1">BITCOIN</p>
+        <p class="info2">From: Nov 20, 2015</p>
+        <p class="info3">$327.00</p>
+        <br>
+        <div class="button1">
+          <a href="#modalWindow1" class="preopen"><p class="open">ADD 1 SHARE</p></a>
+        </div>
+      </div>
+
+      <div class="crypto">
+        <img src="images/anEthereum.png" alt="" class="top1">
+        <p class="info1">ETHER</p>
+        <p class="info2">From: Oct 14, 2016</p>
+        <p class="info3">$11.95</p>
+        <br>
+        <div class="button2">
+          <a href="#modalWindow2" class="preopen"><p class="open">ADD 1 SHARE</p></a>
+        </div>
+      </div>
+
+      <div class="crypto">
+        <img src="images/aLitecoin.png" alt="" class="top1">
+        <p class="info1">LITECOIN</p>
+        <p class="info2">From: Nov 25, 2016</p>
+        <p class="info3">$3.86</p>
+        <br>
+        <div class="button3">
+          <a href="#modalWindow3" class="preopen"><p class="open">ADD 1 SHARE</p></a>
+        </div>
+      </div>
+      <br><br>
+
+      <p class="bottom3" id="return2">(Early) Big Tech Stock Prices</p>
+      <hr class="line1">
+
+      <div class="crypto">
+        <img src="images/aGoogle.png" alt="" class="top1">
+        <p class="info1">GOOGLE</p>
+        <p class="info2">From: Aug 20, 2004</p>
+        <p class="info3">$54.16</p>
+        <br>
+        <div class="button4">
+          <a href="#modalWindow4" class="preopen"><p class="open">ADD 1 SHARE</p></a>
+        </div>
+      </div>
+
+      <div class="crypto">
+        <img src="images/aNetflix.png" alt="" class="top1">
+        <p class="info1">NETFLIX</p>
+        <p class="info2">From: May 24, 2002</p>
+        <p class="info3">$1.21</p>
+        <br>
+        <div class="button5">
+          <a href="#modalWindow5" class="preopen"><p class="open">ADD 1 SHARE</p></a>
+        </div>
+      </div>
+
+      <div class="crypto">
+        <img src="images/aFacebook.png" alt="" class="top1">
+        <p class="info1">META</p>
+        <p class="info2">From: May 18, 2012</p>
+        <p class="info3">$38.23</p>
+        <br>
+        <div class="button6">
+          <a href="#modalWindow6" class="preopen"><p class="open">ADD 1 SHARE</p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="luckyLucky">
+      <a href="#modalWindow0">COI<br>NS?</a>
+    </div>
+
+    <div class="luckyLucky2">
+      <button class="trueGift"><img src="spinImages/coin4.png" alt="" class="dogeDoge"></button>
+    </div>
+
+    <div class="goingUp">
+      <a href="#" class="trueUp"><img src="spinImages/upArrow.png" alt="" class="upArrow"></a>
+    </div>
+
+    <div class="luckyLucky3">
+      <img src="spinImages/coin4.png" alt="" class="animatedDog">
+    </div>
+
+    <div class="purchaseTicket">
+      <a href="#ticketWindow">
+        <img src="spinImages/question.png" alt="" class="nonanimatedTicket">
+      </a>
+    </div>
+
+    <div class="newModalBack" id="modalWindow0">
+      <div class="newModalFront">
+        <a href="#" class="newClose">&#9747;</a>
+        <p class="aSpin">Can you display 3 dogecoins in a row?</p>
+        <hr class="line0">
+
+        <hr class="newLine">
+
+        <div class="slideshow0">
+          <div class="spinWrapper1">
+            <img src="spinImages/coin1.png" alt="" class="spinImg1">
+            <img src="spinImages/coin4.png" alt="" class="spinImgDoge1">
+            <img src="spinImages/coin3.png" alt="" class="spinImg1">
+            <img src="spinImages/coin2.png" alt="" class="spinImg1">
+          </div>
+        </div>
+
+        <div class="slideshow0">
+          <div class="spinWrapper2">
+              <img src="spinImages/coin2.png" alt="" class="spinImg2">
+              <img src="spinImages/coin3.png" alt="" class="spinImg2">
+              <img src="spinImages/coin4.png" alt="" class="spinImgDoge2">
+              <img src="spinImages/coin1.png" alt="" class="spinImg2">
+          </div>
+        </div>
+
+        <div class="slideshow0">
+          <div class="spinWrapper3">
+              <img src="spinImages/coin3.png" alt="" class="spinImg3">
+              <img src="spinImages/coin1.png" alt="" class="spinImg3">
+              <img src="spinImages/coin2.png" alt="" class="spinImg3">
+              <img src="spinImages/coin4.png" alt="" class="spinImgDoge3">
+          </div>
+        </div>
+
+        <button class="to-start">START / RESET</button>
+        <button class="to-select">Only 1-shot to win (pauses all slots)</button>
+        <a href="#" class="containsGift"><button class="gift">Did it AND I definitely deserve a GIFT <br>(👍 ͡❛ ͜ʖ ͡❛)👍</button></a>
+        </div>
+      </div>
+
+      <div class="ticketModalBack" id="ticketWindow">
+        <div class="ticketModalFront">
+
+          <img src="spinImages/theBacking.jpeg" alt="" class="theBacking">
+
+          <a href="#" class="newClose">&#9747;</a>
+          <p class="ticketTitle">Did you win?</p>
+          <hr class="ticketLine">
+
+          <div class="winning">
+            <p class="wow1"><b><i>Winning Ticket: </i></b></p>
+          </div>
+
+          <div class="losing">
+            <p class="wow2"></p>
+          </div>
+
+          </div>
+        </div>
+
+    <!-- Modal Window 1 -->
+    <div class="modalBack" id="modalWindow1">
+      <div class="modalFront">
+        <a href="#return1" class="close">&#9747;</a>
+        <p class="itIsIn">IT'S IN THE BAG!</p>
+        <hr class="line2">
+        <div class="imgCont">
+          <img src="images/aBitcoin.png" alt="" title="Bitcoin">
+        </div>
+        <div class="info">
+          <p>BITCOIN</p>
+          <p>From: Nov 20, 2015</p>
+          <p>$327.00</p>
+          <p>Buy 1, Get 1 Ether or 4 Litecoins Free</p>
+        </div>
+        <div class="moreInfo">
+          <p class="moreInfoPara">Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.</p>
+          <hr class="line3">
+          <a href="#return1" class="back">CONTINUE SHOPPING</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal Window 1 -->
+
+    <!-- Modal Window 2 -->
+    <div class="modalBack" id="modalWindow2">
+      <div class="modalFront">
+        <a href="#return1" class="close">&#9747;</a>
+        <p class="itIsIn">IT'S IN THE BAG!</p>
+        <hr class="line2">
+        <div class="imgCont">
+          <img src="images/anEthereum.png" alt="" title="Ether">
+        </div>
+        <div class="info">
+          <p>ETHER</p>
+          <p>From: Oct 14, 2016</p>
+          <p>$11.95</p>
+          <p>Buy 1, Get 1 Litecoin Free</p>
+        </div>
+        <div class="moreInfo">
+          <p class="moreInfoPara">Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Amongst cryptocurrencies, Ether is second only to Bitcoin in market capitalization.</p>
+          <hr class="line3">
+          <a href="#return1" class="back">CONTINUE SHOPPING</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal Window 2 -->
+
+    <!-- Modal Window 3 -->
+    <div class="modalBack" id="modalWindow3">
+      <div class="modalFront">
+        <a href="#return1" class="close">&#9747;</a>
+        <p class="itIsIn">IT'S IN THE BAG!</p>
+        <hr class="line2">
+        <div class="imgCont">
+          <img src="images/aLitecoin.png" alt="" title="Litecoin">
+        </div>
+        <div class="info">
+          <p>LITECOIN</p>
+          <p>From: Nov 25, 2016</p>
+          <p>$3.86</p>
+        </div>
+        <div class="moreInfo">
+          <p class="moreInfoPara">Litecoin is a peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license. Litecoin was an early bitcoin spinoff or altcoin, starting in October 2011.</p>
+          <hr class="line3">
+          <a href="#return1" class="back">CONTINUE SHOPPING</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal Window 3 -->
+
+    <!-- Modal Window 4 -->
+    <div class="modalBack" id="modalWindow4">
+      <div class="modalFront">
+        <a href="#return2" class="close">&#9747;</a>
+        <p class="itIsIn">IT'S IN THE BAG!</p>
+        <hr class="line2">
+        <div class="imgCont">
+          <img src="images/aGoogle.png" alt="" title="Google">
+        </div>
+        <div class="infoPart2">
+          <p>Alphabet Inc Class A</p>
+          <p>From: Aug 20, 2004</p>
+          <p>$54.16</p>
+          <p>Buy 1, Get 1 Meta Stock Free</p>
+        </div>
+        <div class="moreInfo">
+          <p class="moreInfoPara">Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California.</p>
+          <hr class="line3">
+          <a href="#return2" class="back">CONTINUE SHOPPING</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal Window 4-->
+
+    <!-- Modal Window 5 -->
+    <div class="modalBack" id="modalWindow5">
+      <div class="modalFront">
+        <a href="#return2" class="close">&#9747;</a>
+        <p class="itIsIn">IT'S IN THE BAG!</p>
+        <hr class="line2">
+        <div class="imgCont">
+          <img src="images/aNetflix.png" alt="" title="Netflix">
+        </div>
+        <div class="infoPart2">
+          <p>Netflix Inc</p>
+          <p>From: May 24, 2002</p>
+          <p>$1.21</p>
+        </div>
+        <div class="moreInfo">
+          <p class="moreInfoPara">Netflix, Inc. is an American subscription streaming service and production company.</p>
+          <hr class="line3">
+          <a href="#return2" class="back">CONTINUE SHOPPING</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal Window 5 -->
+
+    <!-- Modal Window 6 -->
+    <div class="modalBack" id="modalWindow6">
+      <div class="modalFront">
+        <a href="#return2" class="close">&#9747;</a>
+        <p class="itIsIn">IT'S IN THE BAG!</p>
+        <hr class="line2">
+        <div class="imgCont">
+          <img src="images/aFacebook.png" alt="" title="Meta">
+        </div>
+        <div class="infoPart2">
+          <p>Meta Platforms Inc</p>
+          <p>From: May 18, 2012</p>
+          <p>$38.23</p>
+          <p>Buy 1, Get 3 Netflix Stocks Free</p>
+        </div>
+        <div class="moreInfo">
+          <p class="moreInfoPara">Meta Platforms, Inc., doing business as Meta and formerly known as Facebook, Inc., is an American multinational technology conglomerate based in Menlo Park, California.</p>
+          <hr class="line3">
+          <a href="#return2" class="back">CONTINUE SHOPPING</a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal Window 6 -->
+
+    <section class="theBottom">
+      <section class="theBottom1">
+        <p>ECOIN PRICES</p>
+        <a href="https://www.google.com/finance/quote/BTC-USD" target="_blank"><p>Bitcoin</p></a>
+        <a href="https://www.google.com/finance/quote/ETH-USD" target="_blank"><p>Ethereum</p></a>
+        <a href="https://www.google.com/finance/quote/LTC-USD" target="_blank"><p>Litecoin</p></a>
+      </section>
+      <section class="theBottom2">
+        <p>TECH STOCK PRICES</p>
+        <a href="https://www.google.com/finance/quote/GOOGL:NASDAQ" target="_blank"><p>Google</p></a>
+        <a href="https://www.google.com/finance/quote/NFLX:NASDAQ" target="_blank"><p>Netflix</p></a>
+        <a href="https://www.google.com/finance/quote/FB:NASDAQ" target="_blank"><p>Meta</p></a>
+      </section>
+      <section class="theBottom3">
+        <p>CONTACT CREATOR</p>
+        <a href="mailto:ahmaichaney@gmail.com" class="creator" target="_blank"><p>Creators Email</p></a>
+
+      </section>
+      <hr class="line4">
+      <section class="theBottom5">
+        <p class="connect">CONNECT WITH AHMAI'S CRYPTO/STOCK COLLECTION</p>
+
+        <a href="https://www.facebook.com/login/" class="theSocials" target="_blank"><img src="socialMedia/fb.png" alt="" class="social"></a>
+
+        <a href="https://www.instagram.com/accounts/login/?hl=en" class="theSocials" target="_blank"><img src="socialMedia/instagram.png" alt="" class="social"></a>
+
+        <a href="https://www.youtube.com/" class="theSocials" target="_blank"><img src="socialMedia/youtube.png" alt="" class="social"></a>
+
+        <a href="https://www.pinterest.com/login/" class="theSocials" target="_blank"><img src="socialMedia/pinterest.png" alt="" class="social"></a>
+
+        <a href="https://twitter.com/login?lang=en" class="theSocials" target="_blank"><img src="socialMedia/twitter.png" alt="" class="social"></a>
+      </section>
+      <footer class="theEnd1">©2022 Ahmai Stock Collection by Ahmai Chaney-Smith All Rights Reserved.</footer>
+      <footer class="theEnd2">NOTE: This webpage is a template to create a sales website. All informations and materials used are for ONLY educational purposes.</footer>
+    </section>
+    <script type="text/javascript" src="salesWebsite.js">
+    </script>
+  </body>
+</html>
