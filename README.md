@@ -1,4 +1,4 @@
-# My Web Dev Practice Project
+# Sales Website
 
 This is a simple web development project built for practice. I created it to reinforce my understanding of fundamental front-end technologies and the process of building a small application from scratch.
 
