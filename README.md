@@ -14,6 +14,6 @@ This is a simple web development project built for practice. I created it to rei
 
 ## View the Project
 
-You can view the live project and explore the code by visiting its GitHub Pages site:
+You can view the live project by visiting its GitHub Pages site:
 
 https://arc-smith.github.io/salesWebsite/
