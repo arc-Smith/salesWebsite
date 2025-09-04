@@ -6,9 +6,9 @@ This is a simple web development project built for practice. I created it to rei
 
 ## What I Learned
 
+* **JavaScript:** Adding interactivity and handling user events.
 * **HTML:** Structuring and organizing content on a web page.
 * **CSS:** Styling and creating a responsive layout using modern techniques like Flexbox.
-* **JavaScript:** Adding interactivity and handling user events.
 
 ---
 
